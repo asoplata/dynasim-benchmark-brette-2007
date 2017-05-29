@@ -1,0 +1,30 @@
+% iNaBM: Hodgkin-Huxley Sodium current from (Brette et al., 2007)
+%
+% Reference:
+% - Brette R, Rudolph M, Carnevale T, Hines M, Beeman D, Bower JM, et al.
+% Simulation of networks of spiking neurons: A review of tools and strategies.
+% Journal of Computational Neuroscience 2007;23:349–98.
+% doi:10.1007/s10827-007-0038-6.
+%
+% parameters
+gNa=100
+ENa=50
+vT=-63
+IC_noise=0; h_IC=0; m_IC=0
+
+% functions
+aM(X) = 0.32.*(13-X+vT)./(exp((13-X+vT)/4)-1)
+bM(X) = 0.28.*(X-vT-40)./(exp((X-vT-40)/5)-1)
+aH(X) = 0.128.*exp((17-X+vT)/18)
+bH(X) = 4./(1+exp((40-X+vT)/5))
+
+INaBM(X,m,h) = gNa.*m.^3.*h.*(X-ENa)
+
+% ODEs and ICs
+m' = aM(X).*(1-m)-bM(X).*m
+h' = aH(X).*(1-h)-bH(X).*h
+h(0)=h_IC+IC_noise*rand(1,Npop)
+m(0)=m_IC+IC_noise*rand(1,Npop)
+
+% linkers
+@current += -INaBM(X,m,h)

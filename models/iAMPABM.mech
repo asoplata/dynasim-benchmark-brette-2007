@@ -1,13 +1,19 @@
-% iAMPABM: scaled synaptic current, excitatory AMPA-ergic parameters
-
+% iAMPABM: scaled excitatory AMPA synaptic current from (Brette et al., 2007)
+%
+% Reference:
+% - Brette R, Rudolph M, Carnevale T, Hines M, Beeman D, Bower JM, et al.
+% Simulation of networks of spiking neurons: A review of tools and strategies.
+% Journal of Computational Neuroscience 2007;23:349–98.
+% doi:10.1007/s10827-007-0038-6.
+%
 % parameters
-% TODO
-gAMPA = 0.69
-EAMPA = -80
-tauAMPA = 10
-IC = 0.1
-IC_noise = 0
-prob_cxn = 0.5
+% conductance conversion:
+%   6 nS * 10^-6 (nS->mS) / (20000 um^2 * 10^8 (um^2->cm^2)) = 0.03 mS/cm^2
+gAMPA = 0.034
+EAMPA = 0
+tauAMPA = 5
+IC = 0.1; IC_noise = 0
+prob_cxn = 0.02
 
 % fixed variables
 netcon = rand(N_pre,N_post)<=prob_cxn

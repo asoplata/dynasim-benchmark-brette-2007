@@ -1,4 +1,4 @@
-run_name = 'benchmark_runscript_1';
+run_name = 'benchmark_runscript_COBAHH';
 %{
 %}
 
@@ -10,40 +10,37 @@ eqns={
 time_end = 500; % in milliseconds
 numcells = 10;
 
-prob_cxn = 0.5;
-app = 2.3;
-
 % Create DynaSim specification structure
 s=[];
 s.populations(1).name='E';
 s.populations(1).size=numcells;
 s.populations(1).equations=eqns;
 % this is where the magic happens
-s.populations(1).mechanism_list={'iNaBME','iKBME','iLeakBME'};
-s.populations(1).parameters={'Iapp',app};
+s.populations(1).mechanism_list={'iNaBM','iKBM','iLeakBM'};
+s.populations(1).parameters={'Iapp',0};
 
 s.populations(2).name='I';
 s.populations(2).size=numcells;
 s.populations(2).equations=eqns;
-s.populations(1).mechanism_list={'iNaBMI','iKBMI','iLeakBMI'};
-s.populations(2).parameters={'Iapp',app};
+s.populations(1).mechanism_list={'iNaBM','iKBM','iLeakBM'};
+s.populations(2).parameters={'Iapp',0};
 
 s.connections(1).direction='E->I';
 s.connections(1).mechanism_list={'iAMPABM'};
-s.connections(1).parameters={'gAMPA',0.08};
-
 s.connections(2).direction='I->E';
 s.connections(2).mechanism_list={'iGABAaBM'};
-s.connections(1).parameters={'gGABAa',0.08};
+s.connections(3).direction='E->E';
+s.connections(3).mechanism_list={'iAMPABM'};
+s.connections(4).direction='I->I';
+s.connections(4).mechanism_list={'iGABAaBM'};
 
 vary={
-  '(I->E)',           'gGABAa',     [0,0.69];
+  '(TC,RE)',           'Iapp',     [0.3,1.3];
 };
-  % '(TC,RE)',           'Iapp',     [1.3, 2.3];
 
 %% Set simulation parameters
 % How much RAM, options: 8G?, 24, 48, 96, 128
-memlimit = '8G';
+memlimit = '12G';
 % memlimit = '16G';
 % memlimit = '48G';
 % memlimit = '96G';
