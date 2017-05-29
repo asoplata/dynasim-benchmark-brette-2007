@@ -1,4 +1,4 @@
-% iGABAaBenchmark: scaled synaptic current, fast threshold modulation with inhibitory GABAa-ergic parameters
+% iGABAaBM: scaled synaptic current, fast threshold modulation with inhibitory GABAa-ergic parameters
 % parameters
 % TODO
 gGABAa = 0.69
@@ -12,14 +12,15 @@ prob_cxn = 0.5
 netcon = rand(N_pre,N_post)<=prob_cxn
 
 % functions
-IGABAaBenchmark(X,s) = gGABAa/N_pre.*(sGABAa*netcon).*(X-EGABAa)
+IGABAaBM(X,s) = gGABAa/N_pre.*(sGABAa*netcon).*(X-EGABAa)
 
 % ODEs and ICs
 sGABAa' = -sGABAa./tauGABAa
 sGABAa(0) = IC+IC_noise.*rand(1,N_pre)
-if(X_pre>0)(sGABAa=1)
+% Lazy spike detection here, see Issue 133 https://github.com/DynaSim/DynaSim/issues/133
+if(X_pre>35)(sGABAa=1)
 
 monitor functions % always record the synaptic current
 
 % linkers
-@current += -IGABAaBenchmark(X_post,sGABAa)
+@current += -IGABAaBM(X_post,sGABAa)

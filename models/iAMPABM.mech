@@ -1,0 +1,27 @@
+% iAMPABM: scaled synaptic current, excitatory AMPA-ergic parameters
+
+% parameters
+% TODO
+gAMPA = 0.69
+EAMPA = -80
+tauAMPA = 10
+IC = 0.1
+IC_noise = 0
+prob_cxn = 0.5
+
+% fixed variables
+netcon = rand(N_pre,N_post)<=prob_cxn
+
+% functions
+IAMPABM(X,s) = gAMPA/N_pre.*(sAMPA*netcon).*(X-EAMPA)
+
+% ODEs and ICs
+sAMPA' = -sAMPA./tauAMPA
+sAMPA(0) = IC+IC_noise.*rand(1,N_pre)
+% Lazy spike detection here, see Issue 133 https://github.com/DynaSim/DynaSim/issues/133
+if(X_pre>35)(sAMPA=1)
+
+monitor functions % always record the synaptic current
+
+% linkers
+@current += -IAMPABM(X_post,sAMPA)
