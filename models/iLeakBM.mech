@@ -7,11 +7,11 @@
 % doi:10.1007/s10827-007-0038-6.
 %
 % parameters
-gLeak = 5e-5
+gLeak = 0.00005
 ELeak = -60
 
 % functions
-ILeakBM(X) = gLeak.*(X-ELeak)
+ILeakBM(X) = gLeak*(X-ELeak)
 
 % linkers
 @current += -ILeakBM(X)

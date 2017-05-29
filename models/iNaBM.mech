@@ -13,9 +13,9 @@ vT=-63
 IC_noise=0; h_IC=0; m_IC=0
 
 % functions
-aM(X) = 0.32.*(13-X+vT)./(exp((13-X+vT)/4)-1)
-bM(X) = 0.28.*(X-vT-40)./(exp((X-vT-40)/5)-1)
-aH(X) = 0.128.*exp((17-X+vT)/18)
+aM(X) = 0.32*(13-X+vT)./(exp((13-X+vT)/4)-1)
+bM(X) = 0.28*(X-vT-40)./(exp((X-vT-40)/5)-1)
+aH(X) = 0.128*exp((17-X+vT)/18)
 bH(X) = 4./(1+exp((40-X+vT)/5))
 
 INaBM(X,m,h) = gNa.*m.^3.*h.*(X-ENa)

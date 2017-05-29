@@ -13,8 +13,8 @@ vT=-63
 IC_noise=0; n_IC=0
 
 % functions
-aH(X) = 0.128.*exp((17-X+vT)/18)
-bH(X) = 4./(1+exp((40-X+vT)/5))
+aN(X) = 0.032*(15-X+vT)./(exp((15-X+vT)/5)-1)
+bN(X) = 0.5*exp((10-X+vT)/40)
 
 IKBM(X,n) = gK.*n.^4.*(X-EK)
 

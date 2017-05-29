@@ -15,14 +15,13 @@ s=[];
 s.populations(1).name='E';
 s.populations(1).size=numcells;
 s.populations(1).equations=eqns;
-% this is where the magic happens
 s.populations(1).mechanism_list={'iNaBM','iKBM','iLeakBM'};
 s.populations(1).parameters={'Iapp',0};
 
 s.populations(2).name='I';
 s.populations(2).size=numcells;
 s.populations(2).equations=eqns;
-s.populations(1).mechanism_list={'iNaBM','iKBM','iLeakBM'};
+s.populations(2).mechanism_list={'iNaBM','iKBM','iLeakBM'};
 s.populations(2).parameters={'Iapp',0};
 
 s.connections(1).direction='E->I';
@@ -35,12 +34,13 @@ s.connections(4).direction='I->I';
 s.connections(4).mechanism_list={'iGABAaBM'};
 
 vary={
-  '(TC,RE)',           'Iapp',     [0.3,1.3];
+  '(E)',           'Iapp',     [0.3,1.3];
 };
+  % '(E,I)',           'Iapp',     [0.3,1.3];
 
 %% Set simulation parameters
 % How much RAM, options: 8G?, 24, 48, 96, 128
-memlimit = '12G';
+memlimit = '8G';
 % memlimit = '16G';
 % memlimit = '48G';
 % memlimit = '96G';
@@ -78,15 +78,8 @@ data = dsSimulate(s,'save_data_flag',save_data_flag,'study_dir',data_dir,...
                   %                {'plot_type','rastergram','format','png'}})
 dsPlot(data)
 
-dsPlot(data,'variable','sGABAa')
+% dsPlot(data,'variable','sGABAa')
 
 dsPlot(data,'variable','v')
 
-figure
-plot(data(1).time, data(1).TC_V)
-title('first TC Vs, no inh')
-
-figure
-plot(data(2).time, data(2).TC_V)
-title('second TC Vs, under inh')
 % exit
