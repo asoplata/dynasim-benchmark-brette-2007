@@ -27,7 +27,7 @@ netcon = rand(N_pre,N_post)<=prob_cxn
 IAMPACOBAHHtanh(X,s) = gAMPA/N_pre.*(sAMPA*netcon).*(X-EAMPA)
 
 % ODEs and ICs
-sAMPA' = -sAMPA./tauAMPA + ((1-s)/tauR).*(1+tanh(X_pre/10))
+sAMPA' = -sAMPA./tauAMPA + ((1-sAMPA)/tauR).*(1+tanh(X_pre/10))
 sAMPA(0) = IC+IC_noise.*rand(1,N_pre)
 
 monitor functions % always record the synaptic current

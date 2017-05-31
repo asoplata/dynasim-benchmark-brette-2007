@@ -27,7 +27,7 @@ netcon = rand(N_pre,N_post)<=prob_cxn
 IGABAaCOBAHHtanh(X,s) = gGABAa/N_pre.*(sGABAa*netcon).*(X-EGABAa)
 
 % ODEs and ICs
-sGABAa' = -sGABAa./tauGABAa + ((1-s)/tauR).*(1+tanh(X_pre/10))
+sGABAa' = -sGABAa./tauGABAa + ((1-sGABAa)/tauR).*(1+tanh(X_pre/10))
 sGABAa(0) = IC+IC_noise.*rand(1,N_pre)
 
 monitor functions % always record the synaptic current

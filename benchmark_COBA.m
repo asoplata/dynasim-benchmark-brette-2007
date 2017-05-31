@@ -8,10 +8,10 @@ eqns={
 };
 
 time_end = 500; % in milliseconds
-numEcells = 32;
-numIcells = 8;
-% numEcells = 3200;
-% numIcells = 800;
+% numEcells = 32;
+% numIcells = 8;
+numEcells = 3200;
+numIcells = 800;
 
 % Create DynaSim specification structure
 s=[];
@@ -39,15 +39,14 @@ s.connections(4).mechanism_list={'iGABAaCOBA'};
 vary={
   '(E)',           'Iapp',     [0.0,1.0];
 };
-  % '(E,I)',           'Iapp',     [0.3,1.3];
 
 %% Set simulation parameters
 % How much RAM, options: 8G?, 24, 48, 96, 128
-memlimit = '8G';
+% memlimit = '8G';
 % memlimit = '16G';
 % memlimit = '48G';
 % memlimit = '96G';
-% memlimit = '254G';
+memlimit = '254G';
 
 % Save data/results to this directory. If just a single name, will
 %   save to that directory name in the current directory from which it's run.
@@ -56,7 +55,7 @@ data_dir = strcat('/projectnb/crc-nak/asoplata/x7-scc-data/',...
                   run_name);
 
 % Flags
-cluster_flag =      0;
+cluster_flag =      1;
 overwrite_flag =    1;
 save_data_flag =    1;
 % Even if `save_data_flag` is 0, if running on cluster this must be off too in
