@@ -1,0 +1,34 @@
+% iGABAaCOBA: scaled inhibitory GABAa synaptic current from (Brette et al.,
+% 2007), adapted threshold for COBA benchmark
+%
+% Reference:
+% - Brette R, Rudolph M, Carnevale T, Hines M, Beeman D, Bower JM, et al.
+% Simulation of networks of spiking neurons: A review of tools and strategies.
+% Journal of Computational Neuroscience 2007;23:349–98.
+% doi:10.1007/s10827-007-0038-6.
+%
+% parameters
+% conductance conversion:
+%   67 nS * 10^-6 (nS->mS) / (20000 um^2 * 10^8 (um^2->cm^2)) = 0.335 mS/cm^2
+gGABAa = (0.335/10)
+EGABAa = -20
+tauGABAa = 10
+IC = 0.1; IC_noise = 0
+prob_cxn = 0.02
+
+% fixed variables
+netcon = rand(N_pre,N_post)<=prob_cxn
+
+% functions
+IGABAaCOBA(X,s) = gGABAa/N_pre.*(sGABAa*netcon).*(X-EGABAa)
+
+% ODEs and ICs
+sGABAa' = -sGABAa./tauGABAa
+sGABAa(0) = IC+IC_noise.*rand(1,N_pre)
+% Lazy spike detection here, see Issue 133 https://github.com/DynaSim/DynaSim/issues/133
+if(X_pre>9.99)(sGABAa=1)
+
+monitor functions % always record the synaptic current
+
+% linkers
+@current += -IGABAaCOBA(X_post,sGABAa)

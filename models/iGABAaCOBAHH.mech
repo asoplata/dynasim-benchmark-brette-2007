@@ -1,4 +1,5 @@
-% iGABAaBM: scaled inhibitory GABAa synaptic current from (Brette et al., 2007)
+% iGABAaCOBAHH: scaled inhibitory GABAa synaptic current from (Brette et al.,
+% 2007) for the COBAHH benchmark
 %
 % Reference:
 % - Brette R, Rudolph M, Carnevale T, Hines M, Beeman D, Bower JM, et al.
@@ -19,7 +20,7 @@ prob_cxn = 0.02
 netcon = rand(N_pre,N_post)<=prob_cxn
 
 % functions
-IGABAaBM(X,s) = gGABAa/N_pre.*(sGABAa*netcon).*(X-EGABAa)
+IGABAaCOBAHH(X,s) = gGABAa/N_pre.*(sGABAa*netcon).*(X-EGABAa)
 
 % ODEs and ICs
 sGABAa' = -sGABAa./tauGABAa
@@ -30,4 +31,4 @@ if(X_pre>35)(sGABAa=1)
 monitor functions % always record the synaptic current
 
 % linkers
-@current += -IGABAaBM(X_post,sGABAa)
+@current += -IGABAaCOBAHH(X_post,sGABAa)

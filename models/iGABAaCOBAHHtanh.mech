@@ -1,7 +1,8 @@
-% iGABAatanhBM: scaled inhibitory GABAa synaptic current from (Brette et al.,
-% 2007), EXCEPT that `tanh` function is used for increasing sGABAa instead of a
-% conditional `if`. This is partly to gauge the relative speed between using a
-% conditional vs. a regular function for the spike thresholding.
+% iGABAaCOBAHHtanh: scaled inhibitory GABAa synaptic current from (Brette et
+% al., 2007) for the COBAHH benchmark, EXCEPT that `tanh` function is used for
+% increasing sGABAa instead of a conditional `if`. This is partly to gauge the
+% relative speed between using a conditional vs. a regular function for the
+% spike thresholding.
 
 % Reference:
 % - Brette R, Rudolph M, Carnevale T, Hines M, Beeman D, Bower JM, et al.
@@ -23,7 +24,7 @@ prob_cxn = 0.02
 netcon = rand(N_pre,N_post)<=prob_cxn
 
 % functions
-IGABAatanhBM(X,s) = gGABAa/N_pre.*(sGABAa*netcon).*(X-EGABAa)
+IGABAaCOBAHHtanh(X,s) = gGABAa/N_pre.*(sGABAa*netcon).*(X-EGABAa)
 
 % ODEs and ICs
 sGABAa' = -sGABAa./tauGABAa + ((1-s)/tauR).*(1+tanh(X_pre/10))
@@ -32,4 +33,4 @@ sGABAa(0) = IC+IC_noise.*rand(1,N_pre)
 monitor functions % always record the synaptic current
 
 % linkers
-@current += -IGABAatanhBM(X_post,sGABAa)
+@current += -IGABAaCOBAHHtanh(X_post,sGABAa)

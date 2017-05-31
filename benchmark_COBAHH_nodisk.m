@@ -28,13 +28,13 @@ s.populations(2).mechanism_list={'iNaBM','iKBM','iLeakBM'};
 s.populations(2).parameters={'Iapp',0};
 
 s.connections(1).direction='E->I';
-s.connections(1).mechanism_list={'iAMPABM'};
+s.connections(1).mechanism_list={'iAMPACOBAHH'};
 s.connections(2).direction='I->E';
-s.connections(2).mechanism_list={'iGABAaBM'};
+s.connections(2).mechanism_list={'iGABAaCOBAHH'};
 s.connections(3).direction='E->E';
-s.connections(3).mechanism_list={'iAMPABM'};
+s.connections(3).mechanism_list={'iAMPACOBAHH'};
 s.connections(4).direction='I->I';
-s.connections(4).mechanism_list={'iGABAaBM'};
+s.connections(4).mechanism_list={'iGABAaCOBAHH'};
 
 vary={
   '(E)',           'Iapp',     [0.3,1.3];
@@ -78,6 +78,6 @@ data = dsSimulate(s,'save_data_flag',save_data_flag,'study_dir',data_dir,...
                   'vary',vary,...
                   'plot_functions',{@dsPlot,@dsPlot,@dsPlot},...
                   'plot_options',{{'plot_type','waveform','format','png'},...
-                                  {'plot_type','power','format','png','xlim',[0 40]},...
+                                  {'plot_type','power','format','png'},...
                                   {'plot_type','rastergram','format','png'}});
 % exit

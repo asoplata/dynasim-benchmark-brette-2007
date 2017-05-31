@@ -1,0 +1,35 @@
+% iAMPACUBA: scaled excitatory AMPA synaptic current from (Brette et al.,
+% 2007), adapted threshold for CUBA benchmark
+%
+% Reference:
+% - Brette R, Rudolph M, Carnevale T, Hines M, Beeman D, Bower JM, et al.
+% Simulation of networks of spiking neurons: A review of tools and strategies.
+% Journal of Computational Neuroscience 2007;23:349–98.
+% doi:10.1007/s10827-007-0038-6.
+%
+% parameters
+% conductance conversion:
+%   0.27 nS * 10^-6 (nS->mS) / (20000 um^2 / 10^8 (um^2->cm^2)) = 0.00135 mS/cm^2
+gAMPA = (60*0.00135/10)
+tauAMPA = 5
+IC = 0.1; IC_noise = 0
+prob_cxn = 0.02
+
+% fixed variables
+netcon = rand(N_pre,N_post)<=prob_cxn
+
+% functions
+% Note that there is NO EQUILIBRIUM comparison term here; this is what Brette
+% had in his code, so I'm using it.
+IAMPACUBA(X,s) = gAMPA/N_pre.*(sAMPA*netcon)
+
+% ODEs and ICs
+sAMPA' = -sAMPA./tauAMPA
+sAMPA(0) = IC+IC_noise.*rand(1,N_pre)
+% Lazy spike detection here, see Issue 133 https://github.com/DynaSim/DynaSim/issues/133
+if(X_pre>-50.1)(sAMPA=1)
+
+monitor functions % always record the synaptic current
+
+% linkers
+@current += -IAMPACUBA(X_post,sAMPA)

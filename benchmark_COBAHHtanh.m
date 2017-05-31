@@ -1,4 +1,4 @@
-run_name = 'benchmark_COBAHHtanh_nodisk';
+run_name = 'benchmark_COBAHHtanh';
 %{
 %}
 
@@ -28,13 +28,13 @@ s.populations(2).mechanism_list={'iNaBM','iKBM','iLeakBM'};
 s.populations(2).parameters={'Iapp',0};
 
 s.connections(1).direction='E->I';
-s.connections(1).mechanism_list={'iAMPABM'};
+s.connections(1).mechanism_list={'iAMPACOBAHHtanh'};
 s.connections(2).direction='I->E';
-s.connections(2).mechanism_list={'iGABAaBM'};
+s.connections(2).mechanism_list={'iGABAaCOBAHHtanh'};
 s.connections(3).direction='E->E';
-s.connections(3).mechanism_list={'iAMPABM'};
+s.connections(3).mechanism_list={'iAMPACOBAHHtanh'};
 s.connections(4).direction='I->I';
-s.connections(4).mechanism_list={'iGABAaBM'};
+s.connections(4).mechanism_list={'iGABAaCOBAHHtanh'};
 
 vary={
   '(E)',           'Iapp',     [0.3,1.3];

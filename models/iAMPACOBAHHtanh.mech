@@ -1,4 +1,8 @@
-% iAMPABM: scaled excitatory AMPA synaptic current from (Brette et al., 2007)
+% iAMPACOBAHHtanh: scaled excitatory AMPA synaptic current from (Brette et al.,
+% 2007) COBAHH benchmark, EXCEPT that `tanh` function is used for increasing
+% sAMPA instead of a conditional `if`. This is partly to gauge the relative
+% speed between using a conditional vs. a regular function for the spike
+% thresholding.
 %
 % Reference:
 % - Brette R, Rudolph M, Carnevale T, Hines M, Beeman D, Bower JM, et al.
@@ -9,9 +13,10 @@
 % parameters
 % conductance conversion:
 %   6 nS * 10^-6 (nS->mS) / (20000 um^2 * 10^8 (um^2->cm^2)) = 0.03 mS/cm^2
-gAMPA = 0.034
+gAMPA = 0.03
 EAMPA = 0
 tauAMPA = 5
+tauR = 0.4
 IC = 0.1; IC_noise = 0
 prob_cxn = 0.02
 
@@ -19,15 +24,13 @@ prob_cxn = 0.02
 netcon = rand(N_pre,N_post)<=prob_cxn
 
 % functions
-IAMPABM(X,s) = gAMPA/N_pre.*(sAMPA*netcon).*(X-EAMPA)
+IAMPACOBAHHtanh(X,s) = gAMPA/N_pre.*(sAMPA*netcon).*(X-EAMPA)
 
 % ODEs and ICs
-sAMPA' = -sAMPA./tauAMPA
+sAMPA' = -sAMPA./tauAMPA + ((1-s)/tauR).*(1+tanh(X_pre/10))
 sAMPA(0) = IC+IC_noise.*rand(1,N_pre)
-% Lazy spike detection here, see Issue 133 https://github.com/DynaSim/DynaSim/issues/133
-if(X_pre>35)(sAMPA=1)
 
 monitor functions % always record the synaptic current
 
 % linkers
-@current += -IAMPABM(X_post,sAMPA)
+@current += -IAMPACOBAHHtanh(X_post,sAMPA)

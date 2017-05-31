@@ -1,10 +1,10 @@
-run_name = 'benchmark_COBAHH_yesdisk';
+run_name = 'benchmark_COBA';
 %{
 %}
 
 % Define equations of cell model (same for all populations)
 eqns={
-  'dv/dt=Iapp+@current';
+  'dv/dt=Iapp+(@current)./taum; if(v>10)(v=0)';
 };
 
 time_end = 500; % in milliseconds
@@ -18,26 +18,26 @@ s=[];
 s.populations(1).name='E';
 s.populations(1).size=numEcells;
 s.populations(1).equations=eqns;
-s.populations(1).mechanism_list={'iNaBM','iKBM','iLeakBM'};
-s.populations(1).parameters={'Iapp',0};
+s.populations(1).mechanism_list={};
+s.populations(1).parameters={'Iapp',0,'taum',20};
 
 s.populations(2).name='I';
 s.populations(2).size=numIcells;
 s.populations(2).equations=eqns;
-s.populations(2).mechanism_list={'iNaBM','iKBM','iLeakBM'};
-s.populations(2).parameters={'Iapp',0};
+s.populations(2).mechanism_list={};
+s.populations(2).parameters={'Iapp',0,'taum',20};
 
 s.connections(1).direction='E->I';
-s.connections(1).mechanism_list={'iAMPACOBAHH'};
+s.connections(1).mechanism_list={'iAMPACOBA',};
 s.connections(2).direction='I->E';
-s.connections(2).mechanism_list={'iGABAaCOBAHH'};
+s.connections(2).mechanism_list={'iGABAaCOBA'};
 s.connections(3).direction='E->E';
-s.connections(3).mechanism_list={'iAMPACOBAHH'};
+s.connections(3).mechanism_list={'iAMPACOBA'};
 s.connections(4).direction='I->I';
-s.connections(4).mechanism_list={'iGABAaCOBAHH'};
+s.connections(4).mechanism_list={'iGABAaCOBA'};
 
 vary={
-  '(E)',           'Iapp',     [0.3,1.3];
+  '(E)',           'Iapp',     [0.0,1.0];
 };
   % '(E,I)',           'Iapp',     [0.3,1.3];
 
@@ -64,7 +64,7 @@ save_data_flag =    1;
 save_results_flag = 1;
 verbose_flag =      1;
 compile_flag =      0;
-disk_flag =         1;
+disk_flag =         0;
 downsample_factor = 1;
 
 % local run of the simulation,
@@ -78,6 +78,6 @@ data = dsSimulate(s,'save_data_flag',save_data_flag,'study_dir',data_dir,...
                   'vary',vary,...
                   'plot_functions',{@dsPlot,@dsPlot,@dsPlot},...
                   'plot_options',{{'plot_type','waveform','format','png'},...
-                                 {'plot_type','power','format','png'},...
-                                 {'plot_type','rastergram','format','png'}});
+                                  {'plot_type','power','format','png'},...
+                                  {'plot_type','rastergram','format','png'}});
 % exit
