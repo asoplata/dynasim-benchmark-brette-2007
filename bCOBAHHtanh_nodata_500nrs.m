@@ -1,4 +1,4 @@
-run_name = 'benchmark_COBAHHtanh';
+run_name = 'bCOBAHHtanh_nodata_500nrs';
 %{
 %}
 
@@ -10,8 +10,8 @@ eqns={
 time_end = 500; % in milliseconds
 % numEcells = 32;
 % numIcells = 8;
-numEcells = 3200;
-numIcells = 800;
+numEcells = 400;
+numIcells = 100;
 
 % Create DynaSim specification structure
 s=[];
@@ -37,8 +37,10 @@ s.connections(4).direction='I->I';
 s.connections(4).mechanism_list={'iGABAaCOBAHHtanh'};
 
 vary={
-  '(E)',           'Iapp',     [0.3,1.3];
+  '(E)',           'Iapp',     [0.0];
 };
+  % issue with save_data_flag being 0 and using multiple vary?
+  % '(E)',           'Iapp',     [0.3,1.3];
   % '(E,I)',           'Iapp',     [0.3,1.3];
 
 %% Set simulation parameters
@@ -58,7 +60,7 @@ data_dir = strcat('/projectnb/crc-nak/asoplata/x7-scc-data/',...
 % Flags
 cluster_flag =      1;
 overwrite_flag =    1;
-save_data_flag =    1;
+save_data_flag =    0;
 % Even if `save_data_flag` is 0, if running on cluster this must be off too in
 %   order to not save data?
 save_results_flag = 1;

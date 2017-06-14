@@ -1,4 +1,4 @@
-run_name = 'benchmark_COBAHHtanh';
+run_name = 'bCOBAHHtanhNoDataCompile4000LocalNoMon';
 %{
 %}
 
@@ -10,6 +10,8 @@ eqns={
 time_end = 500; % in milliseconds
 % numEcells = 32;
 % numIcells = 8;
+% numEcells = 1600;
+% numIcells = 400;
 numEcells = 3200;
 numIcells = 800;
 
@@ -28,17 +30,19 @@ s.populations(2).mechanism_list={'iNaBM','iKBM','iLeakBM'};
 s.populations(2).parameters={'Iapp',0};
 
 s.connections(1).direction='E->I';
-s.connections(1).mechanism_list={'iAMPACOBAHHtanh'};
+s.connections(1).mechanism_list={'iAMPACOBAHHtanhnomon'};
 s.connections(2).direction='I->E';
-s.connections(2).mechanism_list={'iGABAaCOBAHHtanh'};
+s.connections(2).mechanism_list={'iGABAaCOBAHHtanhnomon'};
 s.connections(3).direction='E->E';
-s.connections(3).mechanism_list={'iAMPACOBAHHtanh'};
+s.connections(3).mechanism_list={'iAMPACOBAHHtanhnomon'};
 s.connections(4).direction='I->I';
-s.connections(4).mechanism_list={'iGABAaCOBAHHtanh'};
+s.connections(4).mechanism_list={'iGABAaCOBAHHtanhnomon'};
 
 vary={
-  '(E)',           'Iapp',     [0.3,1.3];
+  '(E)',           'Iapp',     [0.1];
 };
+  % issue with save_data_flag being 0 and using multiple vary?
+  % '(E)',           'Iapp',     [0.3,1.3];
   % '(E,I)',           'Iapp',     [0.3,1.3];
 
 %% Set simulation parameters
@@ -47,7 +51,7 @@ vary={
 % memlimit = '16G';
 % memlimit = '48G';
 % memlimit = '96G';
-memlimit = '254G';
+memlimit = '252G';
 
 % Save data/results to this directory. If just a single name, will
 %   save to that directory name in the current directory from which it's run.
@@ -56,28 +60,30 @@ data_dir = strcat('/projectnb/crc-nak/asoplata/x7-scc-data/',...
                   run_name);
 
 % Flags
-cluster_flag =      1;
+cluster_flag =      0;
 overwrite_flag =    1;
-save_data_flag =    1;
+save_data_flag =    0;
 % Even if `save_data_flag` is 0, if running on cluster this must be off too in
 %   order to not save data?
-save_results_flag = 1;
+save_results_flag = 0;
 verbose_flag =      1;
-compile_flag =      0;
+compile_flag =      1;
 disk_flag =         0;
 downsample_factor = 1;
 
 % local run of the simulation,
 %   i.e. in the interactive session you're running this same script in
-data = dsSimulate(s,'save_data_flag',save_data_flag,'study_dir',data_dir,...
+% data = dsSimulate(s,'save_data_flag',save_data_flag,'study_dir',data_dir,...
+data = SimulateModel(s,'save_data_flag',save_data_flag,'study_dir',data_dir,...
                   'cluster_flag',cluster_flag,'verbose_flag',verbose_flag,...
                   'overwrite_flag',overwrite_flag,'tspan',[0 time_end],...
                   'save_results_flag',save_results_flag,'solver','euler',...
                   'memlimit',memlimit,'compile_flag',compile_flag,...
                   'disk_flag',disk_flag,'downsample_factor',downsample_factor,...
                   'vary',vary,...
-                  'plot_functions',{@dsPlot,@dsPlot,@dsPlot},...
+                  'plot_functions',{@PlotData,@PlotData,@PlotData},...
                   'plot_options',{{'plot_type','waveform','format','png'},...
                                   {'plot_type','power','format','png'},...
                                   {'plot_type','rastergram','format','png'}});
-exit
+%                   'plot_functions',{@dsPlot,@dsPlot,@dsPlot},...
+% exit
