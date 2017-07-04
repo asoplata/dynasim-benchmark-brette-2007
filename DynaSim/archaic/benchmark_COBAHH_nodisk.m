@@ -37,7 +37,7 @@ s.connections(4).direction='I->I';
 s.connections(4).mechanism_list={'iGABAaCOBAHH'};
 
 vary={
-  '(E)',           'Iapp',     [0.3,1.3];
+  '(E)',           'Iapp',     [0.3];
 };
   % '(E,I)',           'Iapp',     [0.3,1.3];
 
@@ -47,7 +47,7 @@ vary={
 % memlimit = '16G';
 % memlimit = '48G';
 % memlimit = '96G';
-memlimit = '254G';
+memlimit = '252G';
 
 % Save data/results to this directory. If just a single name, will
 %   save to that directory name in the current directory from which it's run.

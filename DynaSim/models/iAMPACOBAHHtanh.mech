@@ -30,7 +30,7 @@ IAMPACOBAHHtanh(X,s) = gAMPA/N_pre.*(sAMPA*netcon).*(X-EAMPA)
 sAMPA' = -sAMPA./tauAMPA + ((1-sAMPA)/tauR).*(1+tanh(X_pre/10))
 sAMPA(0) = IC+IC_noise.*rand(1,N_pre)
 
-monitor functions % always record the synaptic current
+% monitor functions % always record the synaptic current
 
 % linkers
 @current += -IAMPACOBAHHtanh(X_post,sAMPA)

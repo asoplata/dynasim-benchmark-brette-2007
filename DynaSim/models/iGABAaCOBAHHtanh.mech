@@ -30,7 +30,7 @@ IGABAaCOBAHHtanh(X,s) = gGABAa/N_pre.*(sGABAa*netcon).*(X-EGABAa)
 sGABAa' = -sGABAa./tauGABAa + ((1-sGABAa)/tauR).*(1+tanh(X_pre/10))
 sGABAa(0) = IC+IC_noise.*rand(1,N_pre)
 
-monitor functions % always record the synaptic current
+% monitor functions % always record the synaptic current
 
 % linkers
 @current += -IGABAaCOBAHHtanh(X_post,sGABAa)
