@@ -20,13 +20,13 @@ sleep 3.00
 $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_32000
 sleep 3.00
 
-# ########################## COBAHH nosyn #############################
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_250
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_500
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_1000
-# sleep 3.00
+########################## COBAHH nosyn #############################
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_250
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_500
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_1000
+sleep 3.00
 $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_2000
 sleep 3.00
 $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_4000

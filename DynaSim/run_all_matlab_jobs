@@ -1,0 +1,41 @@
+#!/bin/bash
+
+############################## CUBA ##################################
+matlab -r brian2_benchmark_CUBA_nosyn_250
+matlab -r brian2_benchmark_CUBA_nosyn_500
+matlab -r brian2_benchmark_CUBA_nosyn_1000
+matlab -r brian2_benchmark_CUBA_nosyn_2000
+matlab -r brian2_benchmark_CUBA_nosyn_4000
+matlab -r brian2_benchmark_CUBA_nosyn_8000
+matlab -r brian2_benchmark_CUBA_nosyn_16000
+matlab -r brian2_benchmark_CUBA_nosyn_32000
+
+########################## COBAHH nosyn #############################
+matlab -r brian2_benchmark_COBAHH_nosyn_250
+matlab -r brian2_benchmark_COBAHH_nosyn_500
+matlab -r brian2_benchmark_COBAHH_nosyn_1000
+matlab -r brian2_benchmark_COBAHH_nosyn_2000
+matlab -r brian2_benchmark_COBAHH_nosyn_4000
+matlab -r brian2_benchmark_COBAHH_nosyn_8000
+matlab -r brian2_benchmark_COBAHH_nosyn_16000
+matlab -r brian2_benchmark_COBAHH_nosyn_32000
+
+#################### COBAHH clocksyn lodens #######################
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_250
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_500
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_1000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_2000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_4000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_8000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_16000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_32000
+
+#################### COBAHH clocksyn hidens #######################
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_250
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_500
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_1000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_2000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_4000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_8000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_16000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_32000
