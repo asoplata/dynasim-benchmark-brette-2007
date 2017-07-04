@@ -10,8 +10,8 @@ set batchdir = ~/batchdirs/$job
 cp $job.py $batchdir
 
 cd $batchdir
-echo "$codedir/qpyjob_loop $batchdir $job" '|' qsub -V -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err
-echo "$codedir/qpyjob_loop $batchdir $job"  |  qsub -V -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err
+echo "$codedir/qpyjob_loop $batchdir $job" '|' qsub -V -hard -l 'mem_total=252G' -l 'cpu_arch=ivybridge' -pe omp 16 -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err
+echo "$codedir/qpyjob_loop $batchdir $job"  |  qsub -V -hard -l 'mem_total=252G' -l 'cpu_arch=ivybridge' -pe omp 16 -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err
 sleep 0.25 #is this the lower limit?
 
 
