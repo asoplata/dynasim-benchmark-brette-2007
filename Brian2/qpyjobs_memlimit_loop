@@ -1,0 +1,22 @@
+#!/bin/csh
+
+set codedir=`pwd`
+
+set job=$1
+
+mkdir -p ~/batchdirs/$job/pbsout
+set batchdir = ~/batchdirs/$job
+
+cp $job.py $batchdir
+
+cd $batchdir
+echo "$codedir/qpyjob_loop $batchdir $job" '|' qsub -V -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err
+echo "$codedir/qpyjob_loop $batchdir $job"  |  qsub -V -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err
+sleep 0.25 #is this the lower limit?
+
+
+# echo "qpyjob_loop $batchdir $job" '|' qsub -V -hard -l 'mem_total=252G' -l 'cpu_arch=ivybridge' -pe omp 16 -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err
+# echo "qpyjob_loop $batchdir $job"  |  qsub -V -hard -l 'mem_total=252G' -l 'cpu_arch=ivybridge' -pe omp 16 -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err
+
+# echo "qsub -V -hard -l 'mem_total=8G' -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err qpyjob1.sh"
+# qsub -V -hard -l 'mem_total=8G' -cwd -N $job -o pbsout/$job.out -e pbsout/$job.err qpyjob1.sh

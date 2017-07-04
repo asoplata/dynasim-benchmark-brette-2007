@@ -1,0 +1,17 @@
+#!/bin/bash -l
+
+cd $1
+echo "command = " $2
+echo "cwd = " `pwd`
+echo "HOSTNAME = " $HOSTNAME
+echo "JOB_NAME = " $JOB_ID
+echo "JOB_NAME = " $JOB_NAME
+
+module load anaconda3
+
+source activate brian2-sim-env
+
+python "$2.py"
+
+echo "finished"
+

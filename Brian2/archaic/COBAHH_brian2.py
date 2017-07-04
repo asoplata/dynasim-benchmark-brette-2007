@@ -2,7 +2,7 @@ from brian2 import *
 # from matplotlib import *
 
 # Parameters
-cells = 1000
+cells = 10000
 defaultclock.dt = 0.01*ms
 area = 20000*umetre**2
 Cm = (1*ufarad*cmetre**-2) * area
@@ -69,14 +69,15 @@ totaldata = StateMonitor(P, 'v', record=True)
 # giata = StateMonitor(P,'gi',record=True)
 
 
-run(0.5 * second, report='text')
+run(1 * second, report='text')
 
-# plot(trace.t/ms, trace[1].v/mV)
-# plot(trace.t/ms, trace[10].v/mV)
-# plot(trace.t/ms, trace[100].v/mV)
-# xlabel('t (ms)')
-# ylabel('v (mV)')
-# show()
+plot(trace.t/ms, trace[1].v/mV)
+plot(trace.t/ms, trace[10].v/mV)
+plot(trace.t/ms, trace[100].v/mV)
+plot(trace.t/ms, trace[400].v/mV)
+xlabel('t (ms)')
+ylabel('v (mV)')
+show()
 
-# print("Saving TC cell voltages!")
-# numpy.savetxt("foo_totaldata.csv", totaldata.v/mV, delimiter=",")
+print("Saving TC cell voltages!")
+numpy.savetxt("foo_totaldata.csv", totaldata.v/mV, delimiter=",")
