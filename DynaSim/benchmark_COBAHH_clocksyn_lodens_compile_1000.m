@@ -5,11 +5,11 @@
 et al. 2007) using the DynaSim simulator for speed benchmark comparison.
 This simulation does include CLOCK-DRIVEN SYNAPSES, for clock-driven comparison
 to Figure 4 of (Goodman and Brette, 2008). The synaptic connections are
-"high-density", with a 90% probability of connection - but the synaptic
+"low-density", with only a 2% probability of connection - but the synaptic
 connection density should not significantly effect DynaSim computation time.
 
 - The time taken to simulate will be indicated in the stdout log file
-'~/batchdirs/benchmark_COBAHH_clocksyn_hidens_2000/pbsout/sim_job1.out'
+'~/batchdirs/benchmark_COBAHH_clocksyn_lodens_compile_1000/pbsout/sim_job1.out'
 
 # References:
 
@@ -22,9 +22,9 @@ doi:10.1007/s10827-007-0038-6.
 Frontiers in Neuroinformatics 2008;2. doi:10.3389/neuro.11.005.2008.
 %}
 
-run_name = 'benchmark_COBAHH_clocksyn_hidens_2000';
+run_name = 'benchmark_COBAHH_clocksyn_lodens_compile_1000';
 
-total_cells = 2000;
+total_cells = 1000;
 numEcells = 0.8*total_cells;
 numIcells = 0.2*total_cells;
 
@@ -52,16 +52,16 @@ s.populations(2).parameters={'Iapp',0};
 
 s.connections(1).direction='E->I';
 s.connections(1).mechanism_list={'iAMPACOBAHHtanh'};
-s.connections(1).parameters={'prob_cxn',0.90};
+s.connections(1).parameters={'prob_cxn',0.02};
 s.connections(2).direction='I->E';
 s.connections(2).mechanism_list={'iGABAaCOBAHHtanh'};
-s.connections(2).parameters={'prob_cxn',0.90};
+s.connections(2).parameters={'prob_cxn',0.02};
 s.connections(3).direction='E->E';
 s.connections(3).mechanism_list={'iAMPACOBAHHtanh'};
-s.connections(3).parameters={'prob_cxn',0.90};
+s.connections(3).parameters={'prob_cxn',0.02};
 s.connections(4).direction='I->I';
 s.connections(4).mechanism_list={'iGABAaCOBAHHtanh'};
-s.connections(4).parameters={'prob_cxn',0.90};
+s.connections(4).parameters={'prob_cxn',0.02};
 
 %% Set other, non-network simulation parameters
 vary={};
@@ -79,7 +79,7 @@ overwrite_flag =    1;
 save_data_flag =    0;
 save_results_flag = 0;
 verbose_flag =      1;
-compile_flag =      0;
+compile_flag =      1;
 disk_flag =         0;
 downsample_factor = 1;
 benchmark_flag =    1;

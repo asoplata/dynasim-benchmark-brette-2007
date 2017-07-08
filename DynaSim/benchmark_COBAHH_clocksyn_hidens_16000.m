@@ -9,7 +9,7 @@ to Figure 4 of (Goodman and Brette, 2008). The synaptic connections are
 connection density should not significantly effect DynaSim computation time.
 
 - The time taken to simulate will be indicated in the stdout log file
-'~/batchdirs/benchmark_COBAHH_clocksyn_lodens_16000/pbsout/sim_job1.out'
+'~/batchdirs/benchmark_COBAHH_clocksyn_hidens_16000/pbsout/sim_job1.out'
 
 # References:
 

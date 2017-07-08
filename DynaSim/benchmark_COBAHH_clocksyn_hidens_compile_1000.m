@@ -9,7 +9,7 @@ to Figure 4 of (Goodman and Brette, 2008). The synaptic connections are
 connection density should not significantly effect DynaSim computation time.
 
 - The time taken to simulate will be indicated in the stdout log file
-'~/batchdirs/benchmark_COBAHH_clocksyn_hidens_2000/pbsout/sim_job1.out'
+'~/batchdirs/benchmark_COBAHH_clocksyn_hidens_compile_1000/pbsout/sim_job1.out'
 
 # References:
 
@@ -22,9 +22,9 @@ doi:10.1007/s10827-007-0038-6.
 Frontiers in Neuroinformatics 2008;2. doi:10.3389/neuro.11.005.2008.
 %}
 
-run_name = 'benchmark_COBAHH_clocksyn_hidens_2000';
+run_name = 'benchmark_COBAHH_clocksyn_hidens_compile_1000';
 
-total_cells = 2000;
+total_cells = 1000;
 numEcells = 0.8*total_cells;
 numIcells = 0.2*total_cells;
 
@@ -79,7 +79,7 @@ overwrite_flag =    1;
 save_data_flag =    0;
 save_results_flag = 0;
 verbose_flag =      1;
-compile_flag =      0;
+compile_flag =      1;
 disk_flag =         0;
 downsample_factor = 1;
 benchmark_flag =    1;
