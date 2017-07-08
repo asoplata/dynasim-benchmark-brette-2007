@@ -39,3 +39,43 @@ matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_4000
 matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_8000
 matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_16000
 matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_32000
+
+############################## Compiled CUBA ##################################
+matlab -r brian2_benchmark_CUBA_nosyn_compile_250
+matlab -r brian2_benchmark_CUBA_nosyn_compile_500
+matlab -r brian2_benchmark_CUBA_nosyn_compile_1000
+matlab -r brian2_benchmark_CUBA_nosyn_compile_2000
+matlab -r brian2_benchmark_CUBA_nosyn_compile_4000
+matlab -r brian2_benchmark_CUBA_nosyn_compile_8000
+matlab -r brian2_benchmark_CUBA_nosyn_compile_16000
+matlab -r brian2_benchmark_CUBA_nosyn_compile_32000
+
+########################## Compiled COBAHH nosyn #############################
+matlab -r brian2_benchmark_COBAHH_nosyn_compile_250
+matlab -r brian2_benchmark_COBAHH_nosyn_compile_500
+matlab -r brian2_benchmark_COBAHH_nosyn_compile_1000
+matlab -r brian2_benchmark_COBAHH_nosyn_compile_2000
+matlab -r brian2_benchmark_COBAHH_nosyn_compile_4000
+matlab -r brian2_benchmark_COBAHH_nosyn_compile_8000
+matlab -r brian2_benchmark_COBAHH_nosyn_compile_16000
+matlab -r brian2_benchmark_COBAHH_nosyn_compile_32000
+
+#################### Compiled COBAHH clocksyn lodens #######################
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_compile_250
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_compile_500
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_compile_1000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_compile_2000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_compile_4000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_compile_8000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_compile_16000
+matlab -r brian2_benchmark_COBAHH_clocksyn_lodens_compile_32000
+
+#################### Compiled COBAHH clocksyn hidens #######################
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_compile_250
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_compile_500
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_compile_1000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_compile_2000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_compile_4000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_compile_8000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_compile_16000
+matlab -r brian2_benchmark_COBAHH_clocksyn_hidens_compile_32000
