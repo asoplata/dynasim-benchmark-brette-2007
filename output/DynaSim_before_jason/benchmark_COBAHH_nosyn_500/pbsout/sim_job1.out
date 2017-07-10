@@ -1,0 +1,40 @@
+command =  sim_job1
+cwd =  /projectnb/crc-nak/asoplata/batchdirs/benchmark_COBAHH_nosyn_500
+HOSTNAME =  scc-mb6.scc.bu.edu
+JOB_NAME =  9746204
+JOB_NAME =  benchmark_COBAHH_nosyn_500_sim_job1
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                    R2014a (8.3.0.532) 64-bit (glnxa64)
+                             February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+SimIDs =
+
+     1
+
+-----------------------------------------------------
+Processing simulation 1 (1 of 1 in this job)...
+-----------------------------------------------------
+
+SIMULATING MODEL:
+Solving system using /usr3/graduate/asoplata/s1-dynasim/dynasim/models/personal/dynasim-benchmark-brette-2007/DynaSim/benchmark_COBAHH_nosyn_500/solve/sim1/solve_ode_benchmark_COBAHH_nosyn_500.m
+Changing directory to /usr3/graduate/asoplata/s1-dynasim/dynasim/models/personal/dynasim-benchmark-brette-2007/DynaSim/benchmark_COBAHH_nosyn_500/solve/sim1
+Saving model parameters: /usr3/graduate/asoplata/s1-dynasim/dynasim/models/personal/dynasim-benchmark-brette-2007/DynaSim/benchmark_COBAHH_nosyn_500/solve/sim1/params.mat
+
+Running simulation 1/1 (solver='euler', dt=0.01, tspan=[0 500]) ...
+Sim Time: 15.9445 seconds
+Elapsed time: 16.0434 seconds.
+Changing directory to /projectnb/crc-nak/asoplata/batchdirs/benchmark_COBAHH_nosyn_500
+
+Simulations complete.
+
+	Executing post-processing function: dsPlot
+		Elapsed time: 3.19226 sec
+		Saving plot: /usr3/graduate/asoplata/s1-dynasim/dynasim/models/personal/dynasim-benchmark-brette-2007/DynaSim/benchmark_COBAHH_nosyn_500/plots/study_sim1_plot1_dsPlot.png
+finished

@@ -1,0 +1,509 @@
+command =  brian2_benchmark_COBAHH_clocksyn_lodens_8000
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_clocksyn_lodens_8000
+HOSTNAME =  scc-mh8
+JOB_NAME =  9754667
+JOB_NAME =  brian2_benchmark_COBAHH_clocksyn_lodens_8000
+Starting simulation at t=0. s for a duration of 0.5 s
+1. ms (0%) simulated in 10s, estimated 1h 23m 30s remaining.
+2. ms (0%) simulated in 20s, estimated 1h 23m 18s remaining.
+3. ms (0%) simulated in 30s, estimated 1h 23m 10s remaining.
+4. ms (0%) simulated in 40s, estimated 1h 23m 1s remaining.
+5. ms (1%) simulated in 50s, estimated 1h 22m 51s remaining.
+6. ms (1%) simulated in 1m 0s, estimated 1h 22m 44s remaining.
+7. ms (1%) simulated in 1m 10s, estimated 1h 22m 34s remaining.
+8. ms (1%) simulated in 1m 20s, estimated 1h 22m 25s remaining.
+9. ms (1%) simulated in 1m 30s, estimated 1h 22m 15s remaining.
+10. ms (2%) simulated in 1m 40s, estimated 1h 22m 5s remaining.
+10.99 ms (2%) simulated in 1m 50s, estimated 1h 22m 1s remaining.
+11.98 ms (2%) simulated in 2m 0s, estimated 1h 21m 56s remaining.
+12.98 ms (2%) simulated in 2m 10s, estimated 1h 21m 46s remaining.
+13.98 ms (2%) simulated in 2m 20s, estimated 1h 21m 35s remaining.
+14.98 ms (2%) simulated in 2m 30s, estimated 1h 21m 25s remaining.
+15.98 ms (3%) simulated in 2m 40s, estimated 1h 21m 14s remaining.
+16.98 ms (3%) simulated in 2m 50s, estimated 1h 21m 4s remaining.
+17.98 ms (3%) simulated in 3m 1s, estimated 1h 20m 54s remaining.
+18.98 ms (3%) simulated in 3m 11s, estimated 1h 20m 44s remaining.
+19.98 ms (3%) simulated in 3m 21s, estimated 1h 20m 34s remaining.
+20.97 ms (4%) simulated in 3m 31s, estimated 1h 20m 26s remaining.
+21.97 ms (4%) simulated in 3m 41s, estimated 1h 20m 15s remaining.
+22.97 ms (4%) simulated in 3m 51s, estimated 1h 20m 5s remaining.
+23.96 ms (4%) simulated in 4m 1s, estimated 1h 19m 56s remaining.
+24.96 ms (4%) simulated in 4m 11s, estimated 1h 19m 46s remaining.
+25.96 ms (5%) simulated in 4m 21s, estimated 1h 19m 35s remaining.
+26.96 ms (5%) simulated in 4m 31s, estimated 1h 19m 25s remaining.
+27.96 ms (5%) simulated in 4m 41s, estimated 1h 19m 15s remaining.
+28.96 ms (5%) simulated in 4m 51s, estimated 1h 19m 5s remaining.
+29.96 ms (5%) simulated in 5m 1s, estimated 1h 18m 55s remaining.
+30.95 ms (6%) simulated in 5m 11s, estimated 1h 18m 45s remaining.
+31.95 ms (6%) simulated in 5m 21s, estimated 1h 18m 35s remaining.
+32.95 ms (6%) simulated in 5m 31s, estimated 1h 18m 25s remaining.
+33.95 ms (6%) simulated in 5m 42s, estimated 1h 18m 15s remaining.
+34.95 ms (6%) simulated in 5m 52s, estimated 1h 18m 5s remaining.
+35.95 ms (7%) simulated in 6m 2s, estimated 1h 17m 55s remaining.
+36.95 ms (7%) simulated in 6m 12s, estimated 1h 17m 45s remaining.
+37.95 ms (7%) simulated in 6m 22s, estimated 1h 17m 35s remaining.
+38.95 ms (7%) simulated in 6m 32s, estimated 1h 17m 25s remaining.
+39.95 ms (7%) simulated in 6m 42s, estimated 1h 17m 14s remaining.
+40.95 ms (8%) simulated in 6m 52s, estimated 1h 17m 4s remaining.
+41.93 ms (8%) simulated in 7m 2s, estimated 1h 16m 56s remaining.
+42.93 ms (8%) simulated in 7m 12s, estimated 1h 16m 46s remaining.
+43.93 ms (8%) simulated in 7m 22s, estimated 1h 16m 36s remaining.
+44.93 ms (8%) simulated in 7m 32s, estimated 1h 16m 26s remaining.
+45.93 ms (9%) simulated in 7m 42s, estimated 1h 16m 16s remaining.
+46.93 ms (9%) simulated in 7m 52s, estimated 1h 16m 6s remaining.
+47.93 ms (9%) simulated in 8m 3s, estimated 1h 15m 56s remaining.
+48.93 ms (9%) simulated in 8m 13s, estimated 1h 15m 45s remaining.
+49.93 ms (9%) simulated in 8m 23s, estimated 1h 15m 35s remaining.
+50.92 ms (10%) simulated in 8m 33s, estimated 1h 15m 26s remaining.
+51.9 ms (10%) simulated in 8m 43s, estimated 1h 15m 17s remaining.
+52.9 ms (10%) simulated in 8m 53s, estimated 1h 15m 7s remaining.
+53.9 ms (10%) simulated in 9m 3s, estimated 1h 14m 57s remaining.
+54.9 ms (10%) simulated in 9m 13s, estimated 1h 14m 47s remaining.
+55.9 ms (11%) simulated in 9m 23s, estimated 1h 14m 37s remaining.
+56.88 ms (11%) simulated in 9m 33s, estimated 1h 14m 28s remaining.
+57.88 ms (11%) simulated in 9m 43s, estimated 1h 14m 18s remaining.
+58.88 ms (11%) simulated in 9m 53s, estimated 1h 14m 7s remaining.
+59.88 ms (11%) simulated in 10m 3s, estimated 1h 13m 57s remaining.
+60.88 ms (12%) simulated in 10m 13s, estimated 1h 13m 47s remaining.
+61.88 ms (12%) simulated in 10m 23s, estimated 1h 13m 36s remaining.
+62.88 ms (12%) simulated in 10m 33s, estimated 1h 13m 26s remaining.
+63.88 ms (12%) simulated in 10m 43s, estimated 1h 13m 16s remaining.
+64.88 ms (12%) simulated in 10m 53s, estimated 1h 13m 6s remaining.
+65.88 ms (13%) simulated in 11m 3s, estimated 1h 12m 55s remaining.
+66.88 ms (13%) simulated in 11m 14s, estimated 1h 12m 45s remaining.
+67.88 ms (13%) simulated in 11m 24s, estimated 1h 12m 35s remaining.
+68.88 ms (13%) simulated in 11m 34s, estimated 1h 12m 24s remaining.
+69.88 ms (13%) simulated in 11m 44s, estimated 1h 12m 14s remaining.
+70.88 ms (14%) simulated in 11m 54s, estimated 1h 12m 4s remaining.
+71.88 ms (14%) simulated in 12m 4s, estimated 1h 11m 53s remaining.
+72.88 ms (14%) simulated in 12m 14s, estimated 1h 11m 43s remaining.
+73.88 ms (14%) simulated in 12m 24s, estimated 1h 11m 33s remaining.
+74.88 ms (14%) simulated in 12m 34s, estimated 1h 11m 23s remaining.
+75.88 ms (15%) simulated in 12m 44s, estimated 1h 11m 12s remaining.
+76.88 ms (15%) simulated in 12m 54s, estimated 1h 11m 2s remaining.
+77.88 ms (15%) simulated in 13m 4s, estimated 1h 10m 52s remaining.
+78.88 ms (15%) simulated in 13m 14s, estimated 1h 10m 42s remaining.
+79.88 ms (15%) simulated in 13m 24s, estimated 1h 10m 32s remaining.
+80.88 ms (16%) simulated in 13m 34s, estimated 1h 10m 22s remaining.
+81.87 ms (16%) simulated in 13m 44s, estimated 1h 10m 12s remaining.
+82.84 ms (16%) simulated in 13m 54s, estimated 1h 10m 4s remaining.
+83.84 ms (16%) simulated in 14m 4s, estimated 1h 9m 54s remaining.
+84.84 ms (16%) simulated in 14m 14s, estimated 1h 9m 43s remaining.
+85.84 ms (17%) simulated in 14m 24s, estimated 1h 9m 33s remaining.
+86.84 ms (17%) simulated in 14m 35s, estimated 1h 9m 23s remaining.
+87.84 ms (17%) simulated in 14m 45s, estimated 1h 9m 13s remaining.
+88.84 ms (17%) simulated in 14m 55s, estimated 1h 9m 3s remaining.
+89.84 ms (17%) simulated in 15m 5s, estimated 1h 8m 53s remaining.
+90.84 ms (18%) simulated in 15m 15s, estimated 1h 8m 43s remaining.
+91.84 ms (18%) simulated in 15m 25s, estimated 1h 8m 32s remaining.
+92.84 ms (18%) simulated in 15m 35s, estimated 1h 8m 22s remaining.
+93.84 ms (18%) simulated in 15m 45s, estimated 1h 8m 12s remaining.
+94.84 ms (18%) simulated in 15m 55s, estimated 1h 8m 2s remaining.
+95.84 ms (19%) simulated in 16m 5s, estimated 1h 7m 52s remaining.
+96.84 ms (19%) simulated in 16m 15s, estimated 1h 7m 42s remaining.
+97.84 ms (19%) simulated in 16m 25s, estimated 1h 7m 32s remaining.
+98.84 ms (19%) simulated in 16m 35s, estimated 1h 7m 21s remaining.
+99.84 ms (19%) simulated in 16m 45s, estimated 1h 7m 11s remaining.
+100.84 ms (20%) simulated in 16m 55s, estimated 1h 7m 1s remaining.
+101.84 ms (20%) simulated in 17m 5s, estimated 1h 6m 51s remaining.
+102.84 ms (20%) simulated in 17m 16s, estimated 1h 6m 41s remaining.
+103.84 ms (20%) simulated in 17m 26s, estimated 1h 6m 31s remaining.
+104.84 ms (20%) simulated in 17m 36s, estimated 1h 6m 21s remaining.
+105.84 ms (21%) simulated in 17m 46s, estimated 1h 6m 11s remaining.
+106.84 ms (21%) simulated in 17m 56s, estimated 1h 6m 1s remaining.
+107.84 ms (21%) simulated in 18m 6s, estimated 1h 5m 51s remaining.
+108.84 ms (21%) simulated in 18m 16s, estimated 1h 5m 40s remaining.
+109.84 ms (21%) simulated in 18m 26s, estimated 1h 5m 30s remaining.
+110.84 ms (22%) simulated in 18m 36s, estimated 1h 5m 20s remaining.
+111.84 ms (22%) simulated in 18m 46s, estimated 1h 5m 10s remaining.
+112.84 ms (22%) simulated in 18m 56s, estimated 1h 5m 0s remaining.
+113.84 ms (22%) simulated in 19m 6s, estimated 1h 4m 50s remaining.
+114.84 ms (22%) simulated in 19m 16s, estimated 1h 4m 40s remaining.
+115.84 ms (23%) simulated in 19m 26s, estimated 1h 4m 30s remaining.
+116.84 ms (23%) simulated in 19m 37s, estimated 1h 4m 20s remaining.
+117.84 ms (23%) simulated in 19m 47s, estimated 1h 4m 10s remaining.
+118.84 ms (23%) simulated in 19m 57s, estimated 1h 4m 0s remaining.
+119.84 ms (23%) simulated in 20m 7s, estimated 1h 3m 50s remaining.
+120.84 ms (24%) simulated in 20m 17s, estimated 1h 3m 40s remaining.
+121.84 ms (24%) simulated in 20m 27s, estimated 1h 3m 30s remaining.
+122.84 ms (24%) simulated in 20m 37s, estimated 1h 3m 19s remaining.
+123.84 ms (24%) simulated in 20m 47s, estimated 1h 3m 9s remaining.
+124.84 ms (24%) simulated in 20m 57s, estimated 1h 2m 59s remaining.
+125.84 ms (25%) simulated in 21m 7s, estimated 1h 2m 49s remaining.
+126.84 ms (25%) simulated in 21m 17s, estimated 1h 2m 39s remaining.
+127.84 ms (25%) simulated in 21m 27s, estimated 1h 2m 29s remaining.
+128.84 ms (25%) simulated in 21m 37s, estimated 1h 2m 19s remaining.
+129.84 ms (25%) simulated in 21m 47s, estimated 1h 2m 9s remaining.
+130.84 ms (26%) simulated in 21m 57s, estimated 1h 1m 58s remaining.
+131.84 ms (26%) simulated in 22m 7s, estimated 1h 1m 48s remaining.
+132.84 ms (26%) simulated in 22m 18s, estimated 1h 1m 38s remaining.
+133.84 ms (26%) simulated in 22m 28s, estimated 1h 1m 28s remaining.
+134.84 ms (26%) simulated in 22m 38s, estimated 1h 1m 18s remaining.
+135.84 ms (27%) simulated in 22m 48s, estimated 1h 1m 8s remaining.
+136.84 ms (27%) simulated in 22m 58s, estimated 1h 0m 58s remaining.
+137.84 ms (27%) simulated in 23m 8s, estimated 1h 0m 48s remaining.
+138.84 ms (27%) simulated in 23m 18s, estimated 1h 0m 37s remaining.
+139.84 ms (27%) simulated in 23m 28s, estimated 1h 0m 27s remaining.
+140.84 ms (28%) simulated in 23m 38s, estimated 1h 0m 17s remaining.
+141.84 ms (28%) simulated in 23m 48s, estimated 1h 0m 7s remaining.
+142.84 ms (28%) simulated in 23m 58s, estimated 59m 57s remaining.
+143.84 ms (28%) simulated in 24m 8s, estimated 59m 47s remaining.
+144.84 ms (28%) simulated in 24m 18s, estimated 59m 36s remaining.
+145.84 ms (29%) simulated in 24m 28s, estimated 59m 26s remaining.
+146.84 ms (29%) simulated in 24m 38s, estimated 59m 16s remaining.
+147.84 ms (29%) simulated in 24m 48s, estimated 59m 6s remaining.
+148.84 ms (29%) simulated in 24m 58s, estimated 58m 56s remaining.
+149.84 ms (29%) simulated in 25m 8s, estimated 58m 46s remaining.
+150.84 ms (30%) simulated in 25m 18s, estimated 58m 36s remaining.
+151.84 ms (30%) simulated in 25m 28s, estimated 58m 26s remaining.
+152.84 ms (30%) simulated in 25m 38s, estimated 58m 16s remaining.
+153.84 ms (30%) simulated in 25m 49s, estimated 58m 5s remaining.
+154.84 ms (30%) simulated in 25m 59s, estimated 57m 55s remaining.
+155.84 ms (31%) simulated in 26m 9s, estimated 57m 45s remaining.
+156.84 ms (31%) simulated in 26m 19s, estimated 57m 35s remaining.
+157.84 ms (31%) simulated in 26m 29s, estimated 57m 25s remaining.
+158.84 ms (31%) simulated in 26m 39s, estimated 57m 15s remaining.
+159.84 ms (31%) simulated in 26m 49s, estimated 57m 5s remaining.
+160.84 ms (32%) simulated in 26m 59s, estimated 56m 55s remaining.
+161.84 ms (32%) simulated in 27m 9s, estimated 56m 45s remaining.
+162.84 ms (32%) simulated in 27m 19s, estimated 56m 35s remaining.
+163.84 ms (32%) simulated in 27m 29s, estimated 56m 25s remaining.
+164.78 ms (32%) simulated in 27m 39s, estimated 56m 16s remaining.
+165.78 ms (33%) simulated in 27m 49s, estimated 56m 6s remaining.
+166.78 ms (33%) simulated in 27m 59s, estimated 55m 56s remaining.
+167.78 ms (33%) simulated in 28m 9s, estimated 55m 46s remaining.
+168.78 ms (33%) simulated in 28m 19s, estimated 55m 36s remaining.
+169.78 ms (33%) simulated in 28m 29s, estimated 55m 26s remaining.
+170.78 ms (34%) simulated in 28m 40s, estimated 55m 16s remaining.
+171.78 ms (34%) simulated in 28m 50s, estimated 55m 6s remaining.
+172.78 ms (34%) simulated in 29m 0s, estimated 54m 56s remaining.
+173.78 ms (34%) simulated in 29m 10s, estimated 54m 46s remaining.
+174.78 ms (34%) simulated in 29m 20s, estimated 54m 35s remaining.
+175.78 ms (35%) simulated in 29m 30s, estimated 54m 25s remaining.
+176.78 ms (35%) simulated in 29m 40s, estimated 54m 15s remaining.
+177.78 ms (35%) simulated in 29m 50s, estimated 54m 5s remaining.
+178.78 ms (35%) simulated in 30m 0s, estimated 53m 55s remaining.
+179.78 ms (35%) simulated in 30m 10s, estimated 53m 45s remaining.
+180.78 ms (36%) simulated in 30m 20s, estimated 53m 35s remaining.
+181.78 ms (36%) simulated in 30m 30s, estimated 53m 25s remaining.
+182.78 ms (36%) simulated in 30m 40s, estimated 53m 15s remaining.
+183.78 ms (36%) simulated in 30m 50s, estimated 53m 5s remaining.
+184.78 ms (36%) simulated in 31m 1s, estimated 52m 55s remaining.
+185.78 ms (37%) simulated in 31m 11s, estimated 52m 45s remaining.
+186.78 ms (37%) simulated in 31m 21s, estimated 52m 35s remaining.
+187.78 ms (37%) simulated in 31m 31s, estimated 52m 25s remaining.
+188.78 ms (37%) simulated in 31m 41s, estimated 52m 15s remaining.
+189.78 ms (37%) simulated in 31m 51s, estimated 52m 4s remaining.
+190.78 ms (38%) simulated in 32m 1s, estimated 51m 54s remaining.
+191.77 ms (38%) simulated in 32m 11s, estimated 51m 45s remaining.
+192.76 ms (38%) simulated in 32m 21s, estimated 51m 35s remaining.
+193.76 ms (38%) simulated in 32m 31s, estimated 51m 25s remaining.
+194.76 ms (38%) simulated in 32m 41s, estimated 51m 15s remaining.
+195.76 ms (39%) simulated in 32m 51s, estimated 51m 4s remaining.
+196.76 ms (39%) simulated in 33m 1s, estimated 50m 54s remaining.
+197.76 ms (39%) simulated in 33m 11s, estimated 50m 44s remaining.
+198.76 ms (39%) simulated in 33m 21s, estimated 50m 34s remaining.
+199.76 ms (39%) simulated in 33m 32s, estimated 50m 24s remaining.
+200.76 ms (40%) simulated in 33m 42s, estimated 50m 14s remaining.
+201.75 ms (40%) simulated in 33m 52s, estimated 50m 4s remaining.
+202.75 ms (40%) simulated in 34m 2s, estimated 49m 54s remaining.
+203.75 ms (40%) simulated in 34m 12s, estimated 49m 44s remaining.
+204.75 ms (40%) simulated in 34m 22s, estimated 49m 34s remaining.
+205.75 ms (41%) simulated in 34m 32s, estimated 49m 24s remaining.
+206.75 ms (41%) simulated in 34m 42s, estimated 49m 14s remaining.
+207.75 ms (41%) simulated in 34m 52s, estimated 49m 4s remaining.
+208.75 ms (41%) simulated in 35m 2s, estimated 48m 53s remaining.
+209.75 ms (41%) simulated in 35m 12s, estimated 48m 43s remaining.
+210.75 ms (42%) simulated in 35m 22s, estimated 48m 33s remaining.
+211.75 ms (42%) simulated in 35m 32s, estimated 48m 23s remaining.
+212.74 ms (42%) simulated in 35m 42s, estimated 48m 13s remaining.
+213.71 ms (42%) simulated in 35m 52s, estimated 48m 4s remaining.
+214.71 ms (42%) simulated in 36m 2s, estimated 47m 54s remaining.
+215.71 ms (43%) simulated in 36m 12s, estimated 47m 44s remaining.
+216.71 ms (43%) simulated in 36m 22s, estimated 47m 33s remaining.
+217.71 ms (43%) simulated in 36m 32s, estimated 47m 23s remaining.
+218.7 ms (43%) simulated in 36m 42s, estimated 47m 13s remaining.
+219.67 ms (43%) simulated in 36m 52s, estimated 47m 4s remaining.
+220.67 ms (44%) simulated in 37m 3s, estimated 46m 54s remaining.
+221.67 ms (44%) simulated in 37m 13s, estimated 46m 44s remaining.
+222.67 ms (44%) simulated in 37m 23s, estimated 46m 34s remaining.
+223.66 ms (44%) simulated in 37m 33s, estimated 46m 24s remaining.
+224.66 ms (44%) simulated in 37m 43s, estimated 46m 14s remaining.
+225.66 ms (45%) simulated in 37m 53s, estimated 46m 4s remaining.
+226.66 ms (45%) simulated in 38m 3s, estimated 45m 54s remaining.
+227.64 ms (45%) simulated in 38m 13s, estimated 45m 44s remaining.
+228.63 ms (45%) simulated in 38m 23s, estimated 45m 34s remaining.
+229.63 ms (45%) simulated in 38m 33s, estimated 45m 24s remaining.
+230.62 ms (46%) simulated in 38m 43s, estimated 45m 14s remaining.
+231.6 ms (46%) simulated in 38m 53s, estimated 45m 4s remaining.
+232.6 ms (46%) simulated in 39m 3s, estimated 44m 54s remaining.
+233.6 ms (46%) simulated in 39m 13s, estimated 44m 44s remaining.
+234.6 ms (46%) simulated in 39m 23s, estimated 44m 34s remaining.
+235.6 ms (47%) simulated in 39m 33s, estimated 44m 24s remaining.
+236.6 ms (47%) simulated in 39m 43s, estimated 44m 14s remaining.
+237.59 ms (47%) simulated in 39m 53s, estimated 44m 4s remaining.
+238.59 ms (47%) simulated in 40m 3s, estimated 43m 54s remaining.
+239.59 ms (47%) simulated in 40m 13s, estimated 43m 44s remaining.
+240.59 ms (48%) simulated in 40m 24s, estimated 43m 34s remaining.
+241.59 ms (48%) simulated in 40m 34s, estimated 43m 24s remaining.
+242.59 ms (48%) simulated in 40m 44s, estimated 43m 14s remaining.
+243.58 ms (48%) simulated in 40m 54s, estimated 43m 4s remaining.
+244.57 ms (48%) simulated in 41m 4s, estimated 42m 54s remaining.
+245.57 ms (49%) simulated in 41m 14s, estimated 42m 44s remaining.
+246.57 ms (49%) simulated in 41m 24s, estimated 42m 33s remaining.
+247.55 ms (49%) simulated in 41m 34s, estimated 42m 24s remaining.
+248.55 ms (49%) simulated in 41m 44s, estimated 42m 14s remaining.
+249.55 ms (49%) simulated in 41m 54s, estimated 42m 4s remaining.
+250.55 ms (50%) simulated in 42m 4s, estimated 41m 54s remaining.
+251.55 ms (50%) simulated in 42m 14s, estimated 41m 43s remaining.
+252.54 ms (50%) simulated in 42m 24s, estimated 41m 34s remaining.
+253.54 ms (50%) simulated in 42m 34s, estimated 41m 23s remaining.
+254.54 ms (50%) simulated in 42m 44s, estimated 41m 13s remaining.
+255.52 ms (51%) simulated in 42m 54s, estimated 41m 4s remaining.
+256.52 ms (51%) simulated in 43m 4s, estimated 40m 54s remaining.
+257.51 ms (51%) simulated in 43m 15s, estimated 40m 44s remaining.
+258.51 ms (51%) simulated in 43m 25s, estimated 40m 34s remaining.
+259.51 ms (51%) simulated in 43m 35s, estimated 40m 23s remaining.
+260.51 ms (52%) simulated in 43m 45s, estimated 40m 13s remaining.
+261.51 ms (52%) simulated in 43m 55s, estimated 40m 3s remaining.
+262.51 ms (52%) simulated in 44m 5s, estimated 39m 53s remaining.
+263.51 ms (52%) simulated in 44m 15s, estimated 39m 43s remaining.
+264.51 ms (52%) simulated in 44m 25s, estimated 39m 33s remaining.
+265.51 ms (53%) simulated in 44m 35s, estimated 39m 23s remaining.
+266.5 ms (53%) simulated in 44m 45s, estimated 39m 13s remaining.
+267.48 ms (53%) simulated in 44m 55s, estimated 39m 3s remaining.
+268.48 ms (53%) simulated in 45m 5s, estimated 38m 53s remaining.
+269.46 ms (53%) simulated in 45m 15s, estimated 38m 43s remaining.
+270.45 ms (54%) simulated in 45m 25s, estimated 38m 34s remaining.
+271.45 ms (54%) simulated in 45m 35s, estimated 38m 23s remaining.
+272.44 ms (54%) simulated in 45m 45s, estimated 38m 14s remaining.
+273.44 ms (54%) simulated in 45m 56s, estimated 38m 4s remaining.
+274.44 ms (54%) simulated in 46m 6s, estimated 37m 53s remaining.
+275.44 ms (55%) simulated in 46m 16s, estimated 37m 43s remaining.
+276.44 ms (55%) simulated in 46m 26s, estimated 37m 33s remaining.
+277.44 ms (55%) simulated in 46m 36s, estimated 37m 23s remaining.
+278.44 ms (55%) simulated in 46m 46s, estimated 37m 13s remaining.
+279.44 ms (55%) simulated in 46m 56s, estimated 37m 3s remaining.
+280.44 ms (56%) simulated in 47m 6s, estimated 36m 53s remaining.
+281.44 ms (56%) simulated in 47m 16s, estimated 36m 43s remaining.
+282.43 ms (56%) simulated in 47m 26s, estimated 36m 33s remaining.
+283.43 ms (56%) simulated in 47m 36s, estimated 36m 23s remaining.
+284.43 ms (56%) simulated in 47m 46s, estimated 36m 13s remaining.
+285.43 ms (57%) simulated in 47m 56s, estimated 36m 3s remaining.
+286.43 ms (57%) simulated in 48m 6s, estimated 35m 52s remaining.
+287.43 ms (57%) simulated in 48m 16s, estimated 35m 42s remaining.
+288.41 ms (57%) simulated in 48m 26s, estimated 35m 33s remaining.
+289.41 ms (57%) simulated in 48m 36s, estimated 35m 22s remaining.
+290.41 ms (58%) simulated in 48m 46s, estimated 35m 12s remaining.
+291.41 ms (58%) simulated in 48m 56s, estimated 35m 2s remaining.
+292.41 ms (58%) simulated in 49m 7s, estimated 34m 52s remaining.
+293.41 ms (58%) simulated in 49m 17s, estimated 34m 42s remaining.
+294.41 ms (58%) simulated in 49m 27s, estimated 34m 32s remaining.
+295.41 ms (59%) simulated in 49m 37s, estimated 34m 22s remaining.
+296.41 ms (59%) simulated in 49m 47s, estimated 34m 12s remaining.
+297.41 ms (59%) simulated in 49m 57s, estimated 34m 2s remaining.
+298.41 ms (59%) simulated in 50m 7s, estimated 33m 52s remaining.
+299.41 ms (59%) simulated in 50m 17s, estimated 33m 42s remaining.
+300.41 ms (60%) simulated in 50m 27s, estimated 33m 31s remaining.
+301.41 ms (60%) simulated in 50m 37s, estimated 33m 21s remaining.
+302.41 ms (60%) simulated in 50m 47s, estimated 33m 11s remaining.
+303.39 ms (60%) simulated in 50m 57s, estimated 33m 2s remaining.
+304.39 ms (60%) simulated in 51m 7s, estimated 32m 51s remaining.
+305.39 ms (61%) simulated in 51m 17s, estimated 32m 41s remaining.
+306.38 ms (61%) simulated in 51m 27s, estimated 32m 31s remaining.
+307.37 ms (61%) simulated in 51m 37s, estimated 32m 21s remaining.
+308.37 ms (61%) simulated in 51m 47s, estimated 32m 11s remaining.
+309.36 ms (61%) simulated in 51m 57s, estimated 32m 1s remaining.
+310.36 ms (62%) simulated in 52m 8s, estimated 31m 51s remaining.
+311.36 ms (62%) simulated in 52m 18s, estimated 31m 41s remaining.
+312.36 ms (62%) simulated in 52m 28s, estimated 31m 31s remaining.
+313.36 ms (62%) simulated in 52m 38s, estimated 31m 21s remaining.
+314.35 ms (62%) simulated in 52m 48s, estimated 31m 11s remaining.
+315.35 ms (63%) simulated in 52m 58s, estimated 31m 1s remaining.
+0.31635 s (63%) simulated in 53m 8s, estimated 30m 51s remaining.
+0.31734 s (63%) simulated in 53m 18s, estimated 30m 41s remaining.
+0.31834 s (63%) simulated in 53m 28s, estimated 30m 31s remaining.
+0.31934 s (63%) simulated in 53m 38s, estimated 30m 21s remaining.
+0.32034 s (64%) simulated in 53m 48s, estimated 30m 11s remaining.
+0.32132 s (64%) simulated in 53m 58s, estimated 30m 1s remaining.
+0.32232 s (64%) simulated in 54m 8s, estimated 29m 51s remaining.
+0.32332 s (64%) simulated in 54m 18s, estimated 29m 41s remaining.
+0.32432 s (64%) simulated in 54m 28s, estimated 29m 31s remaining.
+0.32532 s (65%) simulated in 54m 38s, estimated 29m 21s remaining.
+0.32632 s (65%) simulated in 54m 48s, estimated 29m 11s remaining.
+0.32732 s (65%) simulated in 54m 59s, estimated 29m 0s remaining.
+0.3282 s (65%) simulated in 55m 9s, estimated 28m 52s remaining.
+0.3292 s (65%) simulated in 55m 19s, estimated 28m 42s remaining.
+0.3302 s (66%) simulated in 55m 29s, estimated 28m 32s remaining.
+0.3312 s (66%) simulated in 55m 39s, estimated 28m 22s remaining.
+0.3322 s (66%) simulated in 55m 49s, estimated 28m 12s remaining.
+0.3332 s (66%) simulated in 55m 59s, estimated 28m 2s remaining.
+0.3342 s (66%) simulated in 56m 9s, estimated 27m 52s remaining.
+0.3352 s (67%) simulated in 56m 19s, estimated 27m 42s remaining.
+0.3362 s (67%) simulated in 56m 29s, estimated 27m 32s remaining.
+0.3372 s (67%) simulated in 56m 39s, estimated 27m 21s remaining.
+0.33819 s (67%) simulated in 56m 49s, estimated 27m 11s remaining.
+0.33918 s (67%) simulated in 56m 59s, estimated 27m 2s remaining.
+0.34018 s (68%) simulated in 57m 9s, estimated 26m 51s remaining.
+0.34116 s (68%) simulated in 57m 19s, estimated 26m 42s remaining.
+0.34215 s (68%) simulated in 57m 29s, estimated 26m 32s remaining.
+0.34315 s (68%) simulated in 57m 40s, estimated 26m 22s remaining.
+0.34414 s (68%) simulated in 57m 50s, estimated 26m 12s remaining.
+0.34514 s (69%) simulated in 58m 0s, estimated 26m 1s remaining.
+0.34613 s (69%) simulated in 58m 10s, estimated 25m 52s remaining.
+0.34713 s (69%) simulated in 58m 20s, estimated 25m 41s remaining.
+0.34813 s (69%) simulated in 58m 30s, estimated 25m 31s remaining.
+0.34913 s (69%) simulated in 58m 40s, estimated 25m 21s remaining.
+0.35013 s (70%) simulated in 58m 50s, estimated 25m 11s remaining.
+0.3511 s (70%) simulated in 59m 0s, estimated 25m 1s remaining.
+0.3521 s (70%) simulated in 59m 10s, estimated 24m 51s remaining.
+0.3531 s (70%) simulated in 59m 20s, estimated 24m 41s remaining.
+0.35408 s (70%) simulated in 59m 30s, estimated 24m 31s remaining.
+0.35508 s (71%) simulated in 59m 40s, estimated 24m 21s remaining.
+0.35606 s (71%) simulated in 59m 50s, estimated 24m 12s remaining.
+0.35706 s (71%) simulated in 1h 0m 0s, estimated 24m 1s remaining.
+0.35806 s (71%) simulated in 1h 0m 10s, estimated 23m 51s remaining.
+0.35906 s (71%) simulated in 1h 0m 20s, estimated 23m 41s remaining.
+0.36006 s (72%) simulated in 1h 0m 30s, estimated 23m 31s remaining.
+0.36106 s (72%) simulated in 1h 0m 40s, estimated 23m 21s remaining.
+0.36206 s (72%) simulated in 1h 0m 50s, estimated 23m 11s remaining.
+0.36306 s (72%) simulated in 1h 1m 0s, estimated 23m 1s remaining.
+0.36405 s (72%) simulated in 1h 1m 11s, estimated 22m 51s remaining.
+0.36505 s (73%) simulated in 1h 1m 21s, estimated 22m 41s remaining.
+0.36604 s (73%) simulated in 1h 1m 31s, estimated 22m 31s remaining.
+0.36704 s (73%) simulated in 1h 1m 41s, estimated 22m 21s remaining.
+0.36804 s (73%) simulated in 1h 1m 51s, estimated 22m 11s remaining.
+0.36904 s (73%) simulated in 1h 2m 1s, estimated 22m 1s remaining.
+0.37004 s (74%) simulated in 1h 2m 11s, estimated 21m 50s remaining.
+0.37104 s (74%) simulated in 1h 2m 21s, estimated 21m 40s remaining.
+0.37204 s (74%) simulated in 1h 2m 31s, estimated 21m 30s remaining.
+0.37304 s (74%) simulated in 1h 2m 41s, estimated 21m 20s remaining.
+0.37404 s (74%) simulated in 1h 2m 51s, estimated 21m 10s remaining.
+0.37504 s (75%) simulated in 1h 3m 1s, estimated 21m 0s remaining.
+0.37604 s (75%) simulated in 1h 3m 11s, estimated 20m 50s remaining.
+0.37703 s (75%) simulated in 1h 3m 21s, estimated 20m 40s remaining.
+0.37803 s (75%) simulated in 1h 3m 31s, estimated 20m 30s remaining.
+0.37903 s (75%) simulated in 1h 3m 41s, estimated 20m 20s remaining.
+0.38003 s (76%) simulated in 1h 3m 51s, estimated 20m 10s remaining.
+0.38102 s (76%) simulated in 1h 4m 1s, estimated 20m 0s remaining.
+0.38202 s (76%) simulated in 1h 4m 12s, estimated 19m 50s remaining.
+0.38301 s (76%) simulated in 1h 4m 22s, estimated 19m 40s remaining.
+0.38401 s (76%) simulated in 1h 4m 32s, estimated 19m 30s remaining.
+0.38501 s (77%) simulated in 1h 4m 42s, estimated 19m 19s remaining.
+0.38601 s (77%) simulated in 1h 4m 52s, estimated 19m 9s remaining.
+0.38701 s (77%) simulated in 1h 5m 2s, estimated 18m 59s remaining.
+0.38801 s (77%) simulated in 1h 5m 12s, estimated 18m 49s remaining.
+0.38901 s (77%) simulated in 1h 5m 22s, estimated 18m 39s remaining.
+0.39001 s (78%) simulated in 1h 5m 32s, estimated 18m 29s remaining.
+0.39101 s (78%) simulated in 1h 5m 42s, estimated 18m 19s remaining.
+0.39201 s (78%) simulated in 1h 5m 52s, estimated 18m 9s remaining.
+0.39299 s (78%) simulated in 1h 6m 2s, estimated 17m 59s remaining.
+0.39399 s (78%) simulated in 1h 6m 12s, estimated 17m 49s remaining.
+0.39498 s (78%) simulated in 1h 6m 22s, estimated 17m 39s remaining.
+0.39595 s (79%) simulated in 1h 6m 32s, estimated 17m 29s remaining.
+0.39695 s (79%) simulated in 1h 6m 42s, estimated 17m 19s remaining.
+0.39795 s (79%) simulated in 1h 6m 53s, estimated 17m 9s remaining.
+0.39895 s (79%) simulated in 1h 7m 3s, estimated 16m 59s remaining.
+0.39995 s (79%) simulated in 1h 7m 13s, estimated 16m 49s remaining.
+0.40095 s (80%) simulated in 1h 7m 23s, estimated 16m 39s remaining.
+0.40195 s (80%) simulated in 1h 7m 33s, estimated 16m 29s remaining.
+0.40295 s (80%) simulated in 1h 7m 43s, estimated 16m 19s remaining.
+0.40393 s (80%) simulated in 1h 7m 53s, estimated 16m 9s remaining.
+0.40493 s (80%) simulated in 1h 8m 3s, estimated 15m 59s remaining.
+0.40593 s (81%) simulated in 1h 8m 13s, estimated 15m 49s remaining.
+0.40693 s (81%) simulated in 1h 8m 23s, estimated 15m 39s remaining.
+0.40793 s (81%) simulated in 1h 8m 33s, estimated 15m 28s remaining.
+0.40893 s (81%) simulated in 1h 8m 43s, estimated 15m 18s remaining.
+0.40993 s (81%) simulated in 1h 8m 53s, estimated 15m 8s remaining.
+0.41093 s (82%) simulated in 1h 9m 4s, estimated 14m 58s remaining.
+0.41193 s (82%) simulated in 1h 9m 14s, estimated 14m 48s remaining.
+0.41292 s (82%) simulated in 1h 9m 24s, estimated 14m 38s remaining.
+0.41392 s (82%) simulated in 1h 9m 34s, estimated 14m 28s remaining.
+0.41492 s (82%) simulated in 1h 9m 44s, estimated 14m 18s remaining.
+0.41589 s (83%) simulated in 1h 9m 54s, estimated 14m 8s remaining.
+0.41689 s (83%) simulated in 1h 10m 4s, estimated 13m 58s remaining.
+0.41789 s (83%) simulated in 1h 10m 14s, estimated 13m 48s remaining.
+0.41889 s (83%) simulated in 1h 10m 24s, estimated 13m 38s remaining.
+0.41988 s (83%) simulated in 1h 10m 34s, estimated 13m 28s remaining.
+0.42088 s (84%) simulated in 1h 10m 44s, estimated 13m 18s remaining.
+0.42188 s (84%) simulated in 1h 10m 54s, estimated 13m 8s remaining.
+0.42288 s (84%) simulated in 1h 11m 4s, estimated 12m 58s remaining.
+0.42388 s (84%) simulated in 1h 11m 14s, estimated 12m 48s remaining.
+0.42488 s (84%) simulated in 1h 11m 24s, estimated 12m 38s remaining.
+0.42588 s (85%) simulated in 1h 11m 34s, estimated 12m 27s remaining.
+0.42688 s (85%) simulated in 1h 11m 44s, estimated 12m 17s remaining.
+0.42788 s (85%) simulated in 1h 11m 54s, estimated 12m 7s remaining.
+0.42888 s (85%) simulated in 1h 12m 4s, estimated 11m 57s remaining.
+0.42988 s (85%) simulated in 1h 12m 14s, estimated 11m 47s remaining.
+0.43088 s (86%) simulated in 1h 12m 24s, estimated 11m 37s remaining.
+0.43188 s (86%) simulated in 1h 12m 35s, estimated 11m 27s remaining.
+0.43288 s (86%) simulated in 1h 12m 45s, estimated 11m 17s remaining.
+0.43387 s (86%) simulated in 1h 12m 55s, estimated 11m 7s remaining.
+0.43487 s (86%) simulated in 1h 13m 5s, estimated 10m 57s remaining.
+0.43587 s (87%) simulated in 1h 13m 15s, estimated 10m 47s remaining.
+0.43687 s (87%) simulated in 1h 13m 25s, estimated 10m 37s remaining.
+0.43787 s (87%) simulated in 1h 13m 35s, estimated 10m 26s remaining.
+0.43886 s (87%) simulated in 1h 13m 45s, estimated 10m 17s remaining.
+0.43986 s (87%) simulated in 1h 13m 55s, estimated 10m 6s remaining.
+0.44086 s (88%) simulated in 1h 14m 5s, estimated 9m 56s remaining.
+0.44185 s (88%) simulated in 1h 14m 15s, estimated 9m 46s remaining.
+0.44285 s (88%) simulated in 1h 14m 25s, estimated 9m 36s remaining.
+0.44385 s (88%) simulated in 1h 14m 35s, estimated 9m 26s remaining.
+0.44484 s (88%) simulated in 1h 14m 45s, estimated 9m 16s remaining.
+0.44583 s (89%) simulated in 1h 14m 55s, estimated 9m 6s remaining.
+0.44683 s (89%) simulated in 1h 15m 5s, estimated 8m 56s remaining.
+0.44783 s (89%) simulated in 1h 15m 15s, estimated 8m 46s remaining.
+0.44883 s (89%) simulated in 1h 15m 25s, estimated 8m 36s remaining.
+0.44983 s (89%) simulated in 1h 15m 36s, estimated 8m 26s remaining.
+0.45083 s (90%) simulated in 1h 15m 46s, estimated 8m 16s remaining.
+0.45183 s (90%) simulated in 1h 15m 56s, estimated 8m 6s remaining.
+0.45283 s (90%) simulated in 1h 16m 6s, estimated 7m 56s remaining.
+0.45383 s (90%) simulated in 1h 16m 16s, estimated 7m 46s remaining.
+0.45483 s (90%) simulated in 1h 16m 26s, estimated 7m 35s remaining.
+0.45583 s (91%) simulated in 1h 16m 36s, estimated 7m 25s remaining.
+0.45683 s (91%) simulated in 1h 16m 46s, estimated 7m 15s remaining.
+0.45783 s (91%) simulated in 1h 16m 56s, estimated 7m 5s remaining.
+0.45882 s (91%) simulated in 1h 17m 6s, estimated 6m 55s remaining.
+0.45982 s (91%) simulated in 1h 17m 16s, estimated 6m 45s remaining.
+0.46081 s (92%) simulated in 1h 17m 26s, estimated 6m 35s remaining.
+0.46177 s (92%) simulated in 1h 17m 36s, estimated 6m 26s remaining.
+0.46277 s (92%) simulated in 1h 17m 46s, estimated 6m 15s remaining.
+0.46377 s (92%) simulated in 1h 17m 56s, estimated 6m 5s remaining.
+0.46477 s (92%) simulated in 1h 18m 6s, estimated 5m 55s remaining.
+0.46577 s (93%) simulated in 1h 18m 17s, estimated 5m 45s remaining.
+0.46677 s (93%) simulated in 1h 18m 27s, estimated 5m 35s remaining.
+0.46777 s (93%) simulated in 1h 18m 37s, estimated 5m 25s remaining.
+0.46877 s (93%) simulated in 1h 18m 47s, estimated 5m 15s remaining.
+0.46977 s (93%) simulated in 1h 18m 57s, estimated 5m 5s remaining.
+0.47076 s (94%) simulated in 1h 19m 7s, estimated 4m 55s remaining.
+0.47176 s (94%) simulated in 1h 19m 17s, estimated 4m 45s remaining.
+0.47276 s (94%) simulated in 1h 19m 27s, estimated 4m 35s remaining.
+0.47375 s (94%) simulated in 1h 19m 37s, estimated 4m 25s remaining.
+0.47475 s (94%) simulated in 1h 19m 47s, estimated 4m 15s remaining.
+0.47574 s (95%) simulated in 1h 19m 57s, estimated 4m 5s remaining.
+0.47674 s (95%) simulated in 1h 20m 7s, estimated 3m 55s remaining.
+0.47774 s (95%) simulated in 1h 20m 17s, estimated 3m 44s remaining.
+0.47874 s (95%) simulated in 1h 20m 27s, estimated 3m 34s remaining.
+0.47974 s (95%) simulated in 1h 20m 37s, estimated 3m 24s remaining.
+0.48074 s (96%) simulated in 1h 20m 48s, estimated 3m 14s remaining.
+0.48174 s (96%) simulated in 1h 20m 58s, estimated 3m 4s remaining.
+0.48273 s (96%) simulated in 1h 21m 8s, estimated 2m 54s remaining.
+0.48373 s (96%) simulated in 1h 21m 18s, estimated 2m 44s remaining.
+0.48473 s (96%) simulated in 1h 21m 28s, estimated 2m 34s remaining.
+0.48573 s (97%) simulated in 1h 21m 38s, estimated 2m 24s remaining.
+0.48673 s (97%) simulated in 1h 21m 48s, estimated 2m 14s remaining.
+0.48773 s (97%) simulated in 1h 21m 58s, estimated 2m 4s remaining.
+0.48873 s (97%) simulated in 1h 22m 8s, estimated 1m 54s remaining.
+0.48973 s (97%) simulated in 1h 22m 18s, estimated 1m 44s remaining.
+0.49073 s (98%) simulated in 1h 22m 28s, estimated 1m 33s remaining.
+0.49173 s (98%) simulated in 1h 22m 38s, estimated 1m 23s remaining.
+0.49273 s (98%) simulated in 1h 22m 48s, estimated 1m 13s remaining.
+0.49373 s (98%) simulated in 1h 22m 58s, estimated 1m 3s remaining.
+0.49473 s (98%) simulated in 1h 23m 8s, estimated 53s remaining.
+0.49573 s (99%) simulated in 1h 23m 18s, estimated 43s remaining.
+0.49673 s (99%) simulated in 1h 23m 29s, estimated 33s remaining.
+0.49772 s (99%) simulated in 1h 23m 39s, estimated 23s remaining.
+0.49872 s (99%) simulated in 1h 23m 49s, estimated 13s remaining.
+0.49972 s (99%) simulated in 1h 23m 59s, estimated 3s remaining.
+0.5 s (100%) simulated in 1h 24m 1s
+finished

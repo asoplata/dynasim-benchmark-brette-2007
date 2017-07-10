@@ -1,0 +1,41 @@
+command =  brian2_benchmark_COBAHH_clocksyn_lodens_2000
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_clocksyn_lodens_2000
+HOSTNAME =  scc-cb6
+JOB_NAME =  9754665
+JOB_NAME =  brian2_benchmark_COBAHH_clocksyn_lodens_2000
+Starting simulation at t=0. s for a duration of 0.5 s
+15.17 ms (3%) simulated in 10s, estimated 5m 20s remaining.
+30.34 ms (6%) simulated in 20s, estimated 5m 10s remaining.
+45.45 ms (9%) simulated in 30s, estimated 5m 0s remaining.
+60.65 ms (12%) simulated in 40s, estimated 4m 50s remaining.
+75.84 ms (15%) simulated in 50s, estimated 4m 40s remaining.
+90.92 ms (18%) simulated in 1m 0s, estimated 4m 30s remaining.
+106.12 ms (21%) simulated in 1m 10s, estimated 4m 20s remaining.
+121.03 ms (24%) simulated in 1m 20s, estimated 4m 11s remaining.
+136.24 ms (27%) simulated in 1m 30s, estimated 4m 0s remaining.
+151.45 ms (30%) simulated in 1m 40s, estimated 3m 50s remaining.
+166.42 ms (33%) simulated in 1m 50s, estimated 3m 41s remaining.
+181.61 ms (36%) simulated in 2m 0s, estimated 3m 30s remaining.
+196.69 ms (39%) simulated in 2m 10s, estimated 3m 21s remaining.
+211.9 ms (42%) simulated in 2m 20s, estimated 3m 10s remaining.
+227.11 ms (45%) simulated in 2m 30s, estimated 3m 0s remaining.
+242.3 ms (48%) simulated in 2m 40s, estimated 2m 50s remaining.
+257.48 ms (51%) simulated in 2m 50s, estimated 2m 40s remaining.
+272.67 ms (54%) simulated in 3m 0s, estimated 2m 30s remaining.
+287.85 ms (57%) simulated in 3m 10s, estimated 2m 20s remaining.
+303.05 ms (60%) simulated in 3m 20s, estimated 2m 10s remaining.
+0.31825 s (63%) simulated in 3m 30s, estimated 2m 0s remaining.
+0.33297 s (66%) simulated in 3m 40s, estimated 1m 50s remaining.
+0.34817 s (69%) simulated in 3m 50s, estimated 1m 40s remaining.
+0.36334 s (72%) simulated in 4m 0s, estimated 1m 30s remaining.
+0.37854 s (75%) simulated in 4m 10s, estimated 1m 20s remaining.
+0.39373 s (78%) simulated in 4m 20s, estimated 1m 10s remaining.
+0.40891 s (81%) simulated in 4m 30s, estimated 1m 0s remaining.
+0.42412 s (84%) simulated in 4m 40s, estimated 50s remaining.
+0.43932 s (87%) simulated in 4m 50s, estimated 40s remaining.
+0.45451 s (90%) simulated in 5m 0s, estimated 30s remaining.
+0.4695 s (93%) simulated in 5m 10s, estimated 20s remaining.
+0.48466 s (96%) simulated in 5m 20s, estimated 10s remaining.
+0.49987 s (99%) simulated in 5m 30s, estimated < 1s remaining.
+0.5 s (100%) simulated in 5m 30s
+finished

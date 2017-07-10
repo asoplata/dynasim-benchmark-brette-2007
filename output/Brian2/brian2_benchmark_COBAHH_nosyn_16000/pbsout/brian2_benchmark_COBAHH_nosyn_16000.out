@@ -1,0 +1,21 @@
+command =  brian2_benchmark_COBAHH_nosyn_16000
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_nosyn_16000
+HOSTNAME =  scc-cb6
+JOB_NAME =  9754660
+JOB_NAME =  brian2_benchmark_COBAHH_nosyn_16000
+Starting simulation at t=0. s for a duration of 0.5 s
+38.27 ms (7%) simulated in 10s, estimated 2m 1s remaining.
+76.53 ms (15%) simulated in 20s, estimated 1m 51s remaining.
+112.81 ms (22%) simulated in 30s, estimated 1m 43s remaining.
+152.27 ms (30%) simulated in 40s, estimated 1m 31s remaining.
+187.06 ms (37%) simulated in 50s, estimated 1m 24s remaining.
+226.5 ms (45%) simulated in 1m 0s, estimated 1m 12s remaining.
+265.94 ms (53%) simulated in 1m 10s, estimated 1m 2s remaining.
+305.29 ms (61%) simulated in 1m 20s, estimated 51s remaining.
+0.33559 s (67%) simulated in 1m 30s, estimated 44s remaining.
+0.37483 s (74%) simulated in 1m 40s, estimated 33s remaining.
+0.41429 s (82%) simulated in 1m 50s, estimated 23s remaining.
+0.4535 s (90%) simulated in 2m 0s, estimated 12s remaining.
+0.49295 s (98%) simulated in 2m 10s, estimated 2s remaining.
+0.5 s (100%) simulated in 2m 11s
+finished
