@@ -1,0 +1,43 @@
+command =  sim_job1
+cwd =  /projectnb/crc-nak/asoplata/batchdirs/benchmark_CUBA_nosyn_compile_32000
+HOSTNAME =  scc-ca1.scc.bu.edu
+JOB_NAME =  9890862
+JOB_NAME =  benchmark_CUBA_nosyn_compile_32000_sim_job1
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                    R2014a (8.3.0.532) 64-bit (glnxa64)
+                             February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+SimIDs =
+
+     1
+
+-----------------------------------------------------
+Processing simulation 1 (1 of 1 in this job)...
+-----------------------------------------------------
+
+SIMULATING MODEL:
+Solving system using /usr3/graduate/asoplata/s1-dynasim/dynasim/models/personal/dynasim-benchmark-brette-2007/DynaSim/benchmark_CUBA_nosyn_compile_32000/solve/sim1/solve_ode_benchmark_CUBA_nosyn_compile_32000_mex.mexa64
+Changing directory to /usr3/graduate/asoplata/s1-dynasim/dynasim/models/personal/dynasim-benchmark-brette-2007/DynaSim/benchmark_CUBA_nosyn_compile_32000/solve/sim1
+Saving model parameters: /usr3/graduate/asoplata/s1-dynasim/dynasim/models/personal/dynasim-benchmark-brette-2007/DynaSim/benchmark_CUBA_nosyn_compile_32000/solve/sim1/params.mat
+
+Running simulation 1/1 (solver='euler', dt=0.01, tspan=[0 500]) ...
+Removing failed compiled solve file: /usr3/graduate/asoplata/s1-dynasim/dynasim/models/personal/dynasim-benchmark-brette-2007/DynaSim/benchmark_CUBA_nosyn_compile_32000/solve/sim1/solve_ode_benchmark_CUBA_nosyn_compile_32000_mex.mexa64
+Error: Cannot grow a matrix with greater than intmax() elements.
+	 in solve_ode (line 1)
+	 in dsSimulate/tryFn (line 995)
+	 in dsSimulate (line 744)
+	 in sim_job1 (line 48)
+Changing directory to /projectnb/crc-nak/asoplata/batchdirs/benchmark_CUBA_nosyn_compile_32000
+Error: Cannot grow a matrix with greater than intmax() elements.
+	 in solve_ode (line 1)
+	 in dsSimulate/tryFn (line 995)
+	 in dsSimulate (line 744)
+	 in sim_job1 (line 48)
+finished
