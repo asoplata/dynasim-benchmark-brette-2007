@@ -1,9 +1,11 @@
-Cell count,DS CUBA,B2 CUBA,DS COBAHH nosyn,B2 COBAHH nosyn,DS COBAHH clocksyn lodens,B2 COBAHH clocksyn lodens,DS COBAHH clocksyn hidens,B2 COBAHH clocksyn hidens
-250,,,,,,,,
-500,,,,,,,,
-1000,,,,,,,,
-2000,,,,,,,,
-4000,,,,,,,,
-8000,,,,,,,,
-16000,,,,,,,,
-32000,,,,,,,,
+Cell count,B2 CUBA nosyn,B2 COBAHH nosyn,B2 COBAHH clocksyn lodens (estimated),B2 COBAHH clocksyn hidens (estimated),DS CUBA nosyn nocompile,DS CUBA nosyn compile,DS COBAHH nosyn nocompile,DS COBAHH nosyn compile,DS COBAHH clocksyn lodens nocompile,DS COBAHH clocksyn lodens compile,DS COBAHH clocksyn hidens nocompile,DS COBAHH clocksyn hidens compile
+250,4,7,13,224,1,1,8,11,21,28,20,28.6
+500,5,9,29,869,2,1.4,17,24,61,84,60,83
+1000,5,12,91,3454,3,4,35,56,206,268,210,268
+2000,6,21,330,13835,7,10,72,124,927,924,912,918
+4000,7,36,1264,55389,15,25,144,278,4011,3381,4019,3411
+8000,10,68,5041,481697,28,51,287,566,16369,12849,16490,12842
+16000,15,131,20981,2226738,56,105,573,1163,66179,50201,64960,50188
+32000,24,257,80909,8933419,110,NaN,1294,NaN,252102,NaN,250025,NaN
+
+
