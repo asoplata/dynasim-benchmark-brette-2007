@@ -5,7 +5,7 @@
 of (Goodman and Brette, 2008) using the DynaSim simulator for speed benchmark
 comparison.
 - The time taken to simulate will be indicated in the stdout log file
-'~/batchdirs/benchmark_CUBA_nosyn_0128/pbsout/sim_job1.out'
+'~/batchdirs/benchmark_CUBA_nosyn_compile_0004/pbsout/sim_job1.out'
 
 # References:
 
@@ -13,11 +13,11 @@ comparison.
 Frontiers in Neuroinformatics 2008;2. doi:10.3389/neuro.11.005.2008.
 %}
 
-run_name = 'benchmark_CUBA_nosyn_0128';
+run_name = 'benchmark_CUBA_nosyn_compile_0004';
 
-total_cells = 128;
-numEcells = 96;
-numIcells = 32;
+total_cells = 4;
+numEcells = 3;
+numIcells = 1;
 
 time_end = 500; % in milliseconds
 
@@ -49,7 +49,7 @@ overwrite_flag =    1;
 save_data_flag =    0;
 save_results_flag = 0;
 verbose_flag =      1;
-compile_flag =      0;
+compile_flag =      1;
 disk_flag =         0;
 downsample_factor = 1;
 benchmark_flag =    1;

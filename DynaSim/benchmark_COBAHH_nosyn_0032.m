@@ -1,37 +1,61 @@
 %{
 # Notes:
 
-- This simulation seeks to emulate the CUBA, no synapse simulations of Figure 5
-of (Goodman and Brette, 2008) using the DynaSim simulator for speed benchmark
-comparison.
+- This simulation seeks to emulate the COBAHH benchmark simulations of (Brette
+et al. 2007) using the DynaSim simulator for speed benchmark comparison.
+However, this simulation does not include synapses, for better comparison to
+Figure 5 of (Goodman and Brette, 2008).
+
 - The time taken to simulate will be indicated in the stdout log file
-'~/batchdirs/benchmark_CUBA_nosyn_0128/pbsout/sim_job1.out'
+'~/batchdirs/benchmark_COBAHH_nosyn_0032/pbsout/sim_job1.out'
 
 # References:
+
+- Brette R, Rudolph M, Carnevale T, Hines M, Beeman D, Bower JM, et al.
+Simulation of networks of spiking neurons: A review of tools and strategies.
+Journal of Computational Neuroscience 2007;23:349–98.
+doi:10.1007/s10827-007-0038-6.
 
 - Goodman D, Brette R. Brian: a simulator for spiking neural networks in Python.
 Frontiers in Neuroinformatics 2008;2. doi:10.3389/neuro.11.005.2008.
 %}
 
-run_name = 'benchmark_CUBA_nosyn_0128';
+run_name = 'benchmark_COBAHH_nosyn_0032';
 
-total_cells = 128;
-numEcells = 96;
-numIcells = 32;
+total_cells = 32;
+numEcells = 24;
+numIcells = 8;
 
 time_end = 500; % in milliseconds
 
 %% Create DynaSim specification structure
+% Define equations of cell model (same for all populations)
+eqns={
+  'dv/dt=Iapp+@current';
+};
+
+% Create DynaSim specification structure
 s=[];
 s.populations(1).name='E';
 s.populations(1).size=numEcells;
-s.populations(1).equations={'dv/dt=-gLeak*(v-ELeak)./taum; if(v>-50)(v=-60)'};
-s.populations(1).parameters={'taum',20,'gLeak',1,'ELeak',-49};
+s.populations(1).equations=eqns;
+s.populations(1).mechanism_list={'iNaBM','iKBM','iLeakBM'};
+s.populations(1).parameters={'Iapp',0};
 
 s.populations(2).name='I';
 s.populations(2).size=numIcells;
-s.populations(2).equations={'dv/dt=-gLeak*(v-ELeak)./taum; if(v>-50)(v=-60)'};
-s.populations(2).parameters={'taum',20,'gLeak',1,'ELeak',-49};
+s.populations(2).equations=eqns;
+s.populations(2).mechanism_list={'iNaBM','iKBM','iLeakBM'};
+s.populations(2).parameters={'Iapp',0};
+
+% s.connections(1).direction='E->I';
+% s.connections(1).mechanism_list={'iAMPACOBAHH'};
+% s.connections(2).direction='I->E';
+% s.connections(2).mechanism_list={'iGABAaCOBAHH'};
+% s.connections(3).direction='E->E';
+% s.connections(3).mechanism_list={'iAMPACOBAHH'};
+% s.connections(4).direction='I->I';
+% s.connections(4).mechanism_list={'iGABAaCOBAHH'};
 
 %% Set other, non-network simulation parameters
 vary={};
@@ -54,7 +78,8 @@ disk_flag =         0;
 downsample_factor = 1;
 benchmark_flag =    1;
 
-%% Run the simulation
+
+%% Run the simulation,
 data = dsSimulate(s,'save_data_flag',save_data_flag,'study_dir',data_dir,...
                   'cluster_flag',cluster_flag,'verbose_flag',verbose_flag,...
                   'overwrite_flag',overwrite_flag,'tspan',[0 time_end],...
@@ -65,7 +90,3 @@ data = dsSimulate(s,'save_data_flag',save_data_flag,'study_dir',data_dir,...
                   'plot_functions',{@dsPlot},...
                   'plot_options',{{'plot_type','waveform','format','png'}});
 exit
-
-%% If you want to parameter sweep, add this flag:
-
-%                   'vary',vary,...

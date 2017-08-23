@@ -16,8 +16,8 @@ Frontiers in Neuroinformatics 2008;2. doi:10.3389/neuro.11.005.2008.
 run_name = 'benchmark_CUBA_nosyn_0008';
 
 total_cells = 8;
-numEcells = 0.8*total_cells;
-numIcells = 0.2*total_cells;
+numEcells = 6;
+numIcells = 2;
 
 time_end = 500; % in milliseconds
 
