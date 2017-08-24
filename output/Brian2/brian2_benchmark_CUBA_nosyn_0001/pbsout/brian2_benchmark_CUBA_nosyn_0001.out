@@ -1,0 +1,11 @@
+command =  brian2_benchmark_CUBA_nosyn_0001
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_CUBA_nosyn_0001
+HOSTNAME =  scc-cb5
+JOB_NAME =  373692
+JOB_NAME =  brian2_benchmark_CUBA_nosyn_0001
+command =  brian2_benchmark_CUBA_nosyn_0001
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_CUBA_nosyn_0001
+HOSTNAME =  scc-be4
+JOB_NAME =  373693
+JOB_NAME =  brian2_benchmark_CUBA_nosyn_0001
+finished

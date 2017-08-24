@@ -1,0 +1,14 @@
+command =  brian2_benchmark_COBAHH_clocksyn_hidens_0128
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_clocksyn_hidens_0128
+HOSTNAME =  scc-mf7
+JOB_NAME =  373743
+JOB_NAME =  brian2_benchmark_COBAHH_clocksyn_hidens_0128
+Starting simulation at t=0. s for a duration of 0.5 s
+78.2 ms (15%) simulated in 10s, estimated 54s remaining.
+156.43 ms (31%) simulated in 20s, estimated 44s remaining.
+234.66 ms (46%) simulated in 30s, estimated 34s remaining.
+312.95 ms (62%) simulated in 40s, estimated 24s remaining.
+0.39109 s (78%) simulated in 50s, estimated 14s remaining.
+0.46937 s (93%) simulated in 1m 0s, estimated 4s remaining.
+0.5 s (100%) simulated in 1m 3s
+finished

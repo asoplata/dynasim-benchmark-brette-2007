@@ -1,0 +1,7 @@
+ERROR      Brian 2 encountered an unexpected error. If you think this is bug in Brian 2, please report this issue either to the mailing list at <http://groups.google.com/group/brian-development/>, or to the issue tracker at <https://github.com/brian-team/brian2/issues>. Please include this file with debug information in your report: /scratch/373721.1.cbm.q-pub/brian_debug_31h9zt15.log  Additionally, you can also include a copy of the script that was run, available at: /scratch/373721.1.cbm.q-pub/brian_script_h6kjq6fo.py Thanks! [brian2]
+Traceback (most recent call last):
+  File "brian2_benchmark_COBAHH_clocksyn_lodens_0001.py", line 86, in <module>
+    Pe = P[:proportion]
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/groups/neurongroup.py", line 714, in __getitem__
+    (start, stop))
+IndexError: Illegal start/end values for subgroup, 0>=0

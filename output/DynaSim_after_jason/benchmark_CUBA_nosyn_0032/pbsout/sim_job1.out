@@ -1,0 +1,6 @@
+command =  sim_job1
+cwd =  /projectnb/crc-nak/asoplata/batchdirs/benchmark_CUBA_nosyn_0032
+HOSTNAME =  scc-ca5.scc.bu.edu
+JOB_NAME =  373708
+JOB_NAME =  benchmark_CUBA_nosyn_0032_sim_job1
+finished
