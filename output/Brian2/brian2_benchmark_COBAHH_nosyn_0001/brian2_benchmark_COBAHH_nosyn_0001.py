@@ -76,9 +76,11 @@ beta_n = .5*exp((10*mV-v+VT)/(40*mV))/ms : Hz
 
 P = NeuronGroup(cells, model=eqs, threshold='v>-20*mV', refractory=3*ms,
                 method='euler')
-proportion=int(0.8*cells)
-Pe = P[:proportion]
-Pi = P[proportion:]
+
+# proportion=int(0.8*cells)
+# Pe = P[:proportion]
+# Pi = P[proportion:]
+
 # Ce = Synapses(Pe, P, on_pre='ge+=we')
 # Ci = Synapses(Pi, P, on_pre='gi+=wi')
 # Ce.connect(p=0.98)

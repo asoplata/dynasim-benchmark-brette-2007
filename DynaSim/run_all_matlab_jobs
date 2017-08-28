@@ -1,14 +1,14 @@
 #!/bin/bash
 
-############################## CUBA ##################################
-matlab -r benchmark_CUBA_nosyn_0001
-matlab -r benchmark_CUBA_nosyn_0002
-matlab -r benchmark_CUBA_nosyn_0004
-matlab -r benchmark_CUBA_nosyn_0008
-matlab -r benchmark_CUBA_nosyn_0016
+# ############################## CUBA ##################################
+# matlab -r benchmark_CUBA_nosyn_0001
+# matlab -r benchmark_CUBA_nosyn_0002
+# matlab -r benchmark_CUBA_nosyn_0004
+# matlab -r benchmark_CUBA_nosyn_0008
+# matlab -r benchmark_CUBA_nosyn_0016
 matlab -r benchmark_CUBA_nosyn_0032
-matlab -r benchmark_CUBA_nosyn_0064
-matlab -r benchmark_CUBA_nosyn_0128
+# matlab -r benchmark_CUBA_nosyn_0064
+# matlab -r benchmark_CUBA_nosyn_0128
 # matlab -r benchmark_CUBA_nosyn_250
 # matlab -r benchmark_CUBA_nosyn_500
 # matlab -r benchmark_CUBA_nosyn_1000
@@ -17,16 +17,16 @@ matlab -r benchmark_CUBA_nosyn_0128
 # matlab -r benchmark_CUBA_nosyn_8000
 # matlab -r benchmark_CUBA_nosyn_16000
 # matlab -r benchmark_CUBA_nosyn_32000
-
-########################## COBAHH nosyn #############################
-matlab -r benchmark_COBAHH_nosyn_0001
-matlab -r benchmark_COBAHH_nosyn_0002
-matlab -r benchmark_COBAHH_nosyn_0004
-matlab -r benchmark_COBAHH_nosyn_0008
-matlab -r benchmark_COBAHH_nosyn_0016
-matlab -r benchmark_COBAHH_nosyn_0032
-matlab -r benchmark_COBAHH_nosyn_0064
-matlab -r benchmark_COBAHH_nosyn_0128
+# 
+# ########################## COBAHH nosyn #############################
+# matlab -r benchmark_COBAHH_nosyn_0001
+# matlab -r benchmark_COBAHH_nosyn_0002
+# matlab -r benchmark_COBAHH_nosyn_0004
+# matlab -r benchmark_COBAHH_nosyn_0008
+# matlab -r benchmark_COBAHH_nosyn_0016
+# matlab -r benchmark_COBAHH_nosyn_0032
+# matlab -r benchmark_COBAHH_nosyn_0064
+# matlab -r benchmark_COBAHH_nosyn_0128
 # matlab -r benchmark_COBAHH_nosyn_250
 # matlab -r benchmark_COBAHH_nosyn_500
 # matlab -r benchmark_COBAHH_nosyn_1000
@@ -35,16 +35,16 @@ matlab -r benchmark_COBAHH_nosyn_0128
 # matlab -r benchmark_COBAHH_nosyn_8000
 # matlab -r benchmark_COBAHH_nosyn_16000
 # matlab -r benchmark_COBAHH_nosyn_32000
-
-#################### COBAHH clocksyn lodens #######################
-matlab -r benchmark_COBAHH_clocksyn_lodens_0001
-matlab -r benchmark_COBAHH_clocksyn_lodens_0002
-matlab -r benchmark_COBAHH_clocksyn_lodens_0004
-matlab -r benchmark_COBAHH_clocksyn_lodens_0008
-matlab -r benchmark_COBAHH_clocksyn_lodens_0016
-matlab -r benchmark_COBAHH_clocksyn_lodens_0032
-matlab -r benchmark_COBAHH_clocksyn_lodens_0064
-matlab -r benchmark_COBAHH_clocksyn_lodens_0128
+# 
+# #################### COBAHH clocksyn lodens #######################
+# matlab -r benchmark_COBAHH_clocksyn_lodens_0001
+# matlab -r benchmark_COBAHH_clocksyn_lodens_0002
+# matlab -r benchmark_COBAHH_clocksyn_lodens_0004
+# matlab -r benchmark_COBAHH_clocksyn_lodens_0008
+# matlab -r benchmark_COBAHH_clocksyn_lodens_0016
+# matlab -r benchmark_COBAHH_clocksyn_lodens_0032
+# matlab -r benchmark_COBAHH_clocksyn_lodens_0064
+# matlab -r benchmark_COBAHH_clocksyn_lodens_0128
 # matlab -r benchmark_COBAHH_clocksyn_lodens_250
 # matlab -r benchmark_COBAHH_clocksyn_lodens_500
 # matlab -r benchmark_COBAHH_clocksyn_lodens_1000
@@ -53,16 +53,16 @@ matlab -r benchmark_COBAHH_clocksyn_lodens_0128
 # matlab -r benchmark_COBAHH_clocksyn_lodens_8000
 # matlab -r benchmark_COBAHH_clocksyn_lodens_16000
 # matlab -r benchmark_COBAHH_clocksyn_lodens_32000
-
-#################### COBAHH clocksyn hidens #######################
-matlab -r benchmark_COBAHH_clocksyn_hidens_0001
-matlab -r benchmark_COBAHH_clocksyn_hidens_0002
-matlab -r benchmark_COBAHH_clocksyn_hidens_0004
-matlab -r benchmark_COBAHH_clocksyn_hidens_0008
-matlab -r benchmark_COBAHH_clocksyn_hidens_0016
-matlab -r benchmark_COBAHH_clocksyn_hidens_0032
-matlab -r benchmark_COBAHH_clocksyn_hidens_0064
-matlab -r benchmark_COBAHH_clocksyn_hidens_0128
+# 
+# #################### COBAHH clocksyn hidens #######################
+# matlab -r benchmark_COBAHH_clocksyn_hidens_0001
+# matlab -r benchmark_COBAHH_clocksyn_hidens_0002
+# matlab -r benchmark_COBAHH_clocksyn_hidens_0004
+# matlab -r benchmark_COBAHH_clocksyn_hidens_0008
+# matlab -r benchmark_COBAHH_clocksyn_hidens_0016
+# matlab -r benchmark_COBAHH_clocksyn_hidens_0032
+# matlab -r benchmark_COBAHH_clocksyn_hidens_0064
+# matlab -r benchmark_COBAHH_clocksyn_hidens_0128
 # matlab -r benchmark_COBAHH_clocksyn_hidens_250
 # matlab -r benchmark_COBAHH_clocksyn_hidens_500
 # matlab -r benchmark_COBAHH_clocksyn_hidens_1000
@@ -71,16 +71,16 @@ matlab -r benchmark_COBAHH_clocksyn_hidens_0128
 # matlab -r benchmark_COBAHH_clocksyn_hidens_8000
 # matlab -r benchmark_COBAHH_clocksyn_hidens_16000
 # matlab -r benchmark_COBAHH_clocksyn_hidens_32000
-
-############################## Compiled CUBA #################################
-matlab -r benchmark_CUBA_nosyn_compile_0001
-matlab -r benchmark_CUBA_nosyn_compile_0002
-matlab -r benchmark_CUBA_nosyn_compile_0004
-matlab -r benchmark_CUBA_nosyn_compile_0008
-matlab -r benchmark_CUBA_nosyn_compile_0016
-matlab -r benchmark_CUBA_nosyn_compile_0032
-matlab -r benchmark_CUBA_nosyn_compile_0064
-matlab -r benchmark_CUBA_nosyn_compile_0128
+# 
+# ############################## Compiled CUBA #################################
+# matlab -r benchmark_CUBA_nosyn_compile_0001
+# matlab -r benchmark_CUBA_nosyn_compile_0002
+# matlab -r benchmark_CUBA_nosyn_compile_0004
+# matlab -r benchmark_CUBA_nosyn_compile_0008
+# matlab -r benchmark_CUBA_nosyn_compile_0016
+# matlab -r benchmark_CUBA_nosyn_compile_0032
+# matlab -r benchmark_CUBA_nosyn_compile_0064
+# matlab -r benchmark_CUBA_nosyn_compile_0128
 # matlab -r benchmark_CUBA_nosyn_compile_250
 # matlab -r benchmark_CUBA_nosyn_compile_500
 # matlab -r benchmark_CUBA_nosyn_compile_1000
@@ -89,16 +89,16 @@ matlab -r benchmark_CUBA_nosyn_compile_0128
 # matlab -r benchmark_CUBA_nosyn_compile_8000
 # matlab -r benchmark_CUBA_nosyn_compile_16000
 # matlab -r benchmark_CUBA_nosyn_compile_32000
-
-########################## Compiled COBAHH nosyn #############################
-matlab -r benchmark_COBAHH_nosyn_compile_0001
-matlab -r benchmark_COBAHH_nosyn_compile_0002
-matlab -r benchmark_COBAHH_nosyn_compile_0004
-matlab -r benchmark_COBAHH_nosyn_compile_0008
-matlab -r benchmark_COBAHH_nosyn_compile_0016
-matlab -r benchmark_COBAHH_nosyn_compile_0032
-matlab -r benchmark_COBAHH_nosyn_compile_0064
-matlab -r benchmark_COBAHH_nosyn_compile_0128
+# 
+# ########################## Compiled COBAHH nosyn #############################
+# matlab -r benchmark_COBAHH_nosyn_compile_0001
+# matlab -r benchmark_COBAHH_nosyn_compile_0002
+# matlab -r benchmark_COBAHH_nosyn_compile_0004
+# matlab -r benchmark_COBAHH_nosyn_compile_0008
+# matlab -r benchmark_COBAHH_nosyn_compile_0016
+# matlab -r benchmark_COBAHH_nosyn_compile_0032
+# matlab -r benchmark_COBAHH_nosyn_compile_0064
+# matlab -r benchmark_COBAHH_nosyn_compile_0128
 # matlab -r benchmark_COBAHH_nosyn_compile_250
 # matlab -r benchmark_COBAHH_nosyn_compile_500
 # matlab -r benchmark_COBAHH_nosyn_compile_1000
@@ -107,16 +107,16 @@ matlab -r benchmark_COBAHH_nosyn_compile_0128
 # matlab -r benchmark_COBAHH_nosyn_compile_8000
 # matlab -r benchmark_COBAHH_nosyn_compile_16000
 # matlab -r benchmark_COBAHH_nosyn_compile_32000
-
-#################### Compiled COBAHH clocksyn lodens #######################
-matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0001
-matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0002
-matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0004
-matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0008
-matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0016
-matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0032
-matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0064
-matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0128
+# 
+# #################### Compiled COBAHH clocksyn lodens #######################
+# matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0001
+# matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0002
+# matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0004
+# matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0008
+# matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0016
+# matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0032
+# matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0064
+# matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0128
 # matlab -r benchmark_COBAHH_clocksyn_lodens_compile_250
 # matlab -r benchmark_COBAHH_clocksyn_lodens_compile_500
 # matlab -r benchmark_COBAHH_clocksyn_lodens_compile_1000
@@ -125,16 +125,16 @@ matlab -r benchmark_COBAHH_clocksyn_lodens_compile_0128
 # matlab -r benchmark_COBAHH_clocksyn_lodens_compile_8000
 # matlab -r benchmark_COBAHH_clocksyn_lodens_compile_16000
 # matlab -r benchmark_COBAHH_clocksyn_lodens_compile_32000
-
-#################### Compiled COBAHH clocksyn hidens #######################
-matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0001
-matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0002
-matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0004
-matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0008
-matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0016
-matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0032
-matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0064
-matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0128
+# 
+# #################### Compiled COBAHH clocksyn hidens #######################
+# matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0001
+# matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0002
+# matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0004
+# matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0008
+# matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0016
+# matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0032
+# matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0064
+# matlab -r benchmark_COBAHH_clocksyn_hidens_compile_0128
 # matlab -r benchmark_COBAHH_clocksyn_hidens_compile_250
 # matlab -r benchmark_COBAHH_clocksyn_hidens_compile_500
 # matlab -r benchmark_COBAHH_clocksyn_hidens_compile_1000

@@ -1,6 +1,6 @@
 command =  brian2_benchmark_COBAHH_clocksyn_hidens_0001
 cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_clocksyn_hidens_0001
-HOSTNAME =  scc-sb2
-JOB_NAME =  373733
+HOSTNAME =  scc-sb7
+JOB_NAME =  389943
 JOB_NAME =  brian2_benchmark_COBAHH_clocksyn_hidens_0001
 finished

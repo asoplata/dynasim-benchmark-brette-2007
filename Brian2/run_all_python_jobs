@@ -19,22 +19,22 @@ $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_0064
 sleep 3.00
 $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_0128
 sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_250
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_500
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_1000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_2000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_4000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_8000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_16000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_32000
-# sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_250
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_500
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_1000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_2000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_4000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_8000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_16000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_CUBA_nosyn_32000
+sleep 3.00
 
 ########################## COBAHH nosyn #############################
 $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_0001
@@ -53,22 +53,22 @@ $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_0064
 sleep 3.00
 $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_0128
 sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_250
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_500
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_1000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_2000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_4000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_8000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_16000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_32000
-# sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_250
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_500
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_1000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_2000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_4000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_8000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_16000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_nosyn_32000
+sleep 3.00
 
 
 #################### COBAHH clocksyn lodens #######################
@@ -88,22 +88,22 @@ $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_0064
 sleep 3.00
 $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_0128
 sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_250
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_500
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_1000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_2000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_4000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_8000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_16000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_32000
-# sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_250
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_500
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_1000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_2000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_4000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_8000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_16000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_lodens_32000
+sleep 3.00
 
 #################### COBAHH clocksyn hidens #######################
 $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_0001
@@ -122,19 +122,19 @@ $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_0064
 sleep 3.00
 $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_0128
 sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_250
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_500
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_1000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_2000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_4000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_8000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_16000
-# sleep 3.00
-# $CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_32000
-# sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_250
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_500
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_1000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_2000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_4000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_8000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_16000
+sleep 3.00
+$CODEDIR/qpyjobs_memlimit_loop brian2_benchmark_COBAHH_clocksyn_hidens_32000
+sleep 3.00

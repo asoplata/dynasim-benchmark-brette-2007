@@ -82,9 +82,10 @@ sGABAAtotal : 1
 # Construct intrinsic cells
 P = NeuronGroup(cells, model=eqs, method='euler')
 
-proportion=int(0.8*cells)
-Pe = P[:proportion]
-Pi = P[proportion:]
+Pe = 1
+# proportion=int(0.8*cells)
+# Pe = P[:proportion]
+# Pi = P[proportion:]
 
 # Contruct synaptic network
 sAMPA=Synapses(Pe,P,
@@ -93,11 +94,11 @@ sAMPA=Synapses(Pe,P,
                      ''')
 sAMPA.connect(p=0.02)
 
-sGABAA_RETC=Synapses(Pi,P,
-                     model='''ds/dt=1000.*2.*(1 + tanh(v_pre/(4.*mV)))*(1-s)/ms - s/(5*ms) : 1 (clock-driven)
-                              sGABAAtotal_post = s : 1  (summed)
-                           ''')
-sGABAA_RETC.connect(p=0.02)
+# sGABAA_RETC=Synapses(Pi,P,
+#                      model='''ds/dt=1000.*2.*(1 + tanh(v_pre/(4.*mV)))*(1-s)/ms - s/(5*ms) : 1 (clock-driven)
+#                               sGABAAtotal_post = s : 1  (summed)
+#                            ''')
+# sGABAA_RETC.connect(p=0.02)
 
 # Initialization
 P.v = 'El + (randn() * 5 - 5)*mV'
