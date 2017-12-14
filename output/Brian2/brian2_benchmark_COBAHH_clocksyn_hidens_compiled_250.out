@@ -1,0 +1,29 @@
+command =  brian2_benchmark_COBAHH_clocksyn_hidens_compiled_250
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_clocksyn_hidens_compiled_250
+HOSTNAME =  scc-sa1
+JOB_NAME =  3351378
+JOB_NAME =  brian2_benchmark_COBAHH_clocksyn_hidens_compiled_250
+Starting simulation at t=0 s for duration 0.5 s
+0.02263 s (4%) simulated in 10.01 s, estimated 211 s remaining.
+0.0457 s (9%) simulated in 20.01 s, estimated 199 s remaining.
+0.06873 s (13%) simulated in 30.01 s, estimated 188 s remaining.
+0.09179 s (18%) simulated in 40.01 s, estimated 178 s remaining.
+0.11486 s (22%) simulated in 50.01 s, estimated 168 s remaining.
+0.13793 s (27%) simulated in 60.01 s, estimated 158 s remaining.
+0.161 s (32%) simulated in 70.01 s, estimated 147 s remaining.
+0.18406 s (36%) simulated in 80.01 s, estimated 137 s remaining.
+0.20711 s (41%) simulated in 90.01 s, estimated 127 s remaining.
+0.23019 s (46%) simulated in 100.01 s, estimated 117 s remaining.
+0.25325 s (50%) simulated in 110.01 s, estimated 107 s remaining.
+0.27629 s (55%) simulated in 120.01 s, estimated 97 s remaining.
+0.29937 s (59%) simulated in 130.01 s, estimated 87 s remaining.
+0.32244 s (64%) simulated in 140.01 s, estimated 77 s remaining.
+0.34552 s (69%) simulated in 150.01 s, estimated 67 s remaining.
+0.36857 s (73%) simulated in 160.01 s, estimated 57 s remaining.
+0.39166 s (78%) simulated in 170.01 s, estimated 47 s remaining.
+0.41471 s (82%) simulated in 180.01 s, estimated 37 s remaining.
+0.43778 s (87%) simulated in 190.01 s, estimated 27 s remaining.
+0.46087 s (92%) simulated in 200.01 s, estimated 17 s remaining.
+0.48391 s (96%) simulated in 210.01 s, estimated 7 s remaining.
+0.5 s (100%) simulated in 216.97 s
+finished

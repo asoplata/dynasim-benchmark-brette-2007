@@ -1,0 +1,2 @@
+INFO       No numerical integration method specified for group 'synapses_1', using method 'linear' (took 0.57s). [brian2.stateupdaters.base.method_choice]
+INFO       No numerical integration method specified for group 'synapses', using method 'linear' (took 0.48s). [brian2.stateupdaters.base.method_choice]

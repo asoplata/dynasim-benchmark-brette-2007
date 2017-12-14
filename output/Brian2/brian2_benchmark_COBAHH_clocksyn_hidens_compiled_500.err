@@ -1,0 +1,26 @@
+/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/bin/deactivate: /projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/bin/conda: /bin/sh: bad interpreter: No such file or directory
+/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/bin/activate: line 94: sed: command not found
+/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/bin/activate: line 98: grep: command not found
+/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/bin/activate: line 99: grep: command not found
+INFO       No numerical integration method specified for group 'synapses_1', using method 'linear' (took 0.55s). [brian2.stateupdaters.base.method_choice]
+INFO       No numerical integration method specified for group 'synapses', using method 'linear' (took 0.48s). [brian2.stateupdaters.base.method_choice]
+sh: make: command not found
+ERROR      Brian 2 encountered an unexpected error. If you think this is bug in Brian 2, please report this issue either to the mailing list at <http://groups.google.com/group/brian-development/>, or to the issue tracker at <https://github.com/brian-team/brian2/issues>. Please include this file with debug information in your report: /scratch/3351379.1.qonos-pub/brian_debug_0fe5vtou.log  Additionally, you can also include a copy of the script that was run, available at: /scratch/3351379.1.qonos-pub/brian_script_heci4qzn.py You can also include a copy of the redirected std stream outputs, available at /scratch/3351379.1.qonos-pub/brian_stdout_obma0kcg.log and /scratch/3351379.1.qonos-pub/brian_stderr_g2n7r9l8.log Thanks! [brian2]
+Traceback (most recent call last):
+  File "brian2_benchmark_COBAHH_clocksyn_hidens_compiled_500.py", line 111, in <module>
+    run(0.5 * second, report='text')
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/units/fundamentalunits.py", line 2355, in new_f
+    result = f(*args, **kwds)
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/core/magic.py", line 371, in run
+    namespace=namespace, profile=profile, level=2+level)
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/core/magic.py", line 231, in run
+    namespace=namespace, profile=profile, level=level+1)
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/core/base.py", line 276, in device_override_decorated_function
+    return getattr(curdev, name)(*args, **kwds)
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/devices/cpp_standalone/device.py", line 1208, in network_run
+    self.build(direct_call=False, **self.build_options)
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/devices/cpp_standalone/device.py", line 1081, in build
+    self.compile_source(directory, compiler, debug, clean)
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/devices/cpp_standalone/device.py", line 867, in compile_source
+    raise RuntimeError(error_message)
+RuntimeError: Project compilation failed (error code: 32512). Consider running with "clean=True" to force a complete rebuild.

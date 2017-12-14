@@ -1,0 +1,9 @@
+ERROR      Brian 2 encountered an unexpected error. If you think this is bug in Brian 2, please report this issue either to the mailing list at <http://groups.google.com/group/brian-development/>, or to the issue tracker at <https://github.com/brian-team/brian2/issues>. Please include this file with debug information in your report: /scratch/3351352.1.qonos-pub/brian_debug_apbf1blh.log  Additionally, you can also include a copy of the script that was run, available at: /scratch/3351352.1.qonos-pub/brian_script_2ymd44xo.py Thanks! [brian2]
+Traceback (most recent call last):
+  File "brian2_benchmark_COBAHH_clocksyn_lodens_compiled_0001.py", line 96, in <module>
+    ''')
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/synapses/synapses.py", line 677, in __init__
+    self.add_dependency(source)
+  File "/projectnb/crc-nak/asoplata/conda_envs/brian2-sim-env/lib/python3.5/site-packages/brian2/core/base.py", line 161, in add_dependency
+    self._dependencies.add(obj.id)
+AttributeError: 'int' object has no attribute 'id'

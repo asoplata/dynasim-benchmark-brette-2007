@@ -1,0 +1,8 @@
+command =  brian2_benchmark_COBAHH_nosyn_compiled_0008
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_nosyn_compiled_0008
+HOSTNAME =  scc-ae7
+JOB_NAME =  3351339
+JOB_NAME =  brian2_benchmark_COBAHH_nosyn_compiled_0008
+Starting simulation at t=0 s for duration 0.5 s
+0.5 s (100%) simulated in 0.19 s
+finished

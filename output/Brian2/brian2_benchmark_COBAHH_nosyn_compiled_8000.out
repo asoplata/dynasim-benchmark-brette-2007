@@ -1,0 +1,14 @@
+command =  brian2_benchmark_COBAHH_nosyn_compiled_8000
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_nosyn_compiled_8000
+HOSTNAME =  scc-sa3
+JOB_NAME =  3351349
+JOB_NAME =  brian2_benchmark_COBAHH_nosyn_compiled_8000
+Starting simulation at t=0 s for duration 0.5 s
+0.07658 s (15%) simulated in 10.01 s, estimated 55 s remaining.
+0.15443 s (30%) simulated in 20.01 s, estimated 45 s remaining.
+0.23212 s (46%) simulated in 30.01 s, estimated 35 s remaining.
+0.30956 s (61%) simulated in 40.01 s, estimated 25 s remaining.
+0.38738 s (77%) simulated in 50.01 s, estimated 15 s remaining.
+0.46514 s (93%) simulated in 60.01 s, estimated 4 s remaining.
+0.5 s (100%) simulated in 64.49 s
+finished

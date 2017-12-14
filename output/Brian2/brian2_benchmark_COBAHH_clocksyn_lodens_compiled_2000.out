@@ -1,0 +1,40 @@
+command =  brian2_benchmark_COBAHH_clocksyn_lodens_compiled_2000
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_clocksyn_lodens_compiled_2000
+HOSTNAME =  scc-sb1
+JOB_NAME =  3351364
+JOB_NAME =  brian2_benchmark_COBAHH_clocksyn_lodens_compiled_2000
+Starting simulation at t=0 s for duration 0.5 s
+0.01518 s (3%) simulated in 10.01 s, estimated 320 s remaining.
+0.03059 s (6%) simulated in 20.01 s, estimated 307 s remaining.
+0.04604 s (9%) simulated in 30.01 s, estimated 296 s remaining.
+0.0615 s (12%) simulated in 40.01 s, estimated 285 s remaining.
+0.0769 s (15%) simulated in 50.01 s, estimated 275 s remaining.
+0.09234 s (18%) simulated in 60.01 s, estimated 265 s remaining.
+0.10778 s (21%) simulated in 70.01 s, estimated 255 s remaining.
+0.12319 s (24%) simulated in 80.01 s, estimated 245 s remaining.
+0.13864 s (27%) simulated in 90.01 s, estimated 235 s remaining.
+0.1541 s (30%) simulated in 100.01 s, estimated 224 s remaining.
+0.16952 s (33%) simulated in 110.01 s, estimated 214 s remaining.
+0.18497 s (36%) simulated in 120.01 s, estimated 204 s remaining.
+0.20041 s (40%) simulated in 130.01 s, estimated 194 s remaining.
+0.21583 s (43%) simulated in 140.01 s, estimated 184 s remaining.
+0.23129 s (46%) simulated in 150.01 s, estimated 174 s remaining.
+0.24674 s (49%) simulated in 160.01 s, estimated 164 s remaining.
+0.26214 s (52%) simulated in 170.01 s, estimated 154 s remaining.
+0.27757 s (55%) simulated in 180.01 s, estimated 144 s remaining.
+0.29303 s (58%) simulated in 190.01 s, estimated 134 s remaining.
+0.30845 s (61%) simulated in 200.01 s, estimated 124 s remaining.
+0.3239 s (64%) simulated in 210.01 s, estimated 114 s remaining.
+0.33934 s (67%) simulated in 220.01 s, estimated 104 s remaining.
+0.35476 s (70%) simulated in 230.01 s, estimated 94 s remaining.
+0.3702 s (74%) simulated in 240.01 s, estimated 84 s remaining.
+0.38566 s (77%) simulated in 250.01 s, estimated 74 s remaining.
+0.40106 s (80%) simulated in 260.01 s, estimated 64 s remaining.
+0.4165 s (83%) simulated in 270.01 s, estimated 54 s remaining.
+0.43198 s (86%) simulated in 280.01 s, estimated 44 s remaining.
+0.44738 s (89%) simulated in 290.01 s, estimated 34 s remaining.
+0.46283 s (92%) simulated in 300.01 s, estimated 24 s remaining.
+0.47828 s (95%) simulated in 310.01 s, estimated 14 s remaining.
+0.49369 s (98%) simulated in 320.01 s, estimated 4 s remaining.
+0.5 s (100%) simulated in 324.09 s
+finished

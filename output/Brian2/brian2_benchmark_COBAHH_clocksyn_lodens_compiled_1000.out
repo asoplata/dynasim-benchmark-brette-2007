@@ -1,0 +1,16 @@
+command =  brian2_benchmark_COBAHH_clocksyn_lodens_compiled_1000
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_COBAHH_clocksyn_lodens_compiled_1000
+HOSTNAME =  scc-sa8
+JOB_NAME =  3351363
+JOB_NAME =  brian2_benchmark_COBAHH_clocksyn_lodens_compiled_1000
+Starting simulation at t=0 s for duration 0.5 s
+0.05873 s (11%) simulated in 10.01 s, estimated 75 s remaining.
+0.11765 s (23%) simulated in 20.01 s, estimated 65 s remaining.
+0.17663 s (35%) simulated in 30.01 s, estimated 55 s remaining.
+0.2354 s (47%) simulated in 40.01 s, estimated 45 s remaining.
+0.29431 s (58%) simulated in 50.01 s, estimated 35 s remaining.
+0.35325 s (70%) simulated in 60.01 s, estimated 25 s remaining.
+0.41214 s (82%) simulated in 70.01 s, estimated 15 s remaining.
+0.47113 s (94%) simulated in 80.01 s, estimated 5 s remaining.
+0.5 s (100%) simulated in 84.9 s
+finished

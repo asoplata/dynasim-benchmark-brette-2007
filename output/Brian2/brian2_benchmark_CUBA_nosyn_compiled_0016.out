@@ -1,0 +1,8 @@
+command =  brian2_benchmark_CUBA_nosyn_compiled_0016
+cwd =  /usr3/graduate/asoplata/batchdirs/brian2_benchmark_CUBA_nosyn_compiled_0016
+HOSTNAME =  scc-sb5
+JOB_NAME =  3351324
+JOB_NAME =  brian2_benchmark_CUBA_nosyn_compiled_0016
+Starting simulation at t=0 s for duration 0.5 s
+0.5 s (100%) simulated in 0.13 s
+finished
