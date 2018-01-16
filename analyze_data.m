@@ -3,16 +3,16 @@ data = readtable('data.csv');
 
 f1 = figure(1);
 subplot 221
-loglog(data.CellCount, data.BrianCUBA_Nosyn,'-or','DisplayName','Brian')
+loglog(data.CellCount, data.BrianCUBA_Nosyn,'-or','DisplayName','Brian Not Compiled')
 hold on
-loglog(data.CellCount, data.BrianCUBA_Nosyn_Compiled,'-og','DisplayName','Brian')
+loglog(data.CellCount, data.BrianCUBA_Nosyn_Compiled,'-og','DisplayName','Brian Compiled')
 loglog(data.CellCount, data.DynaCUBA_NosynNocompile, '-ob','DisplayName','DynaSim Not Compiled')
 loglog(data.CellCount, data.DynaCUBA_NosynCompile, '-ok','DisplayName','DynaSim Compiled')
 hold off
 xlabel('Cell number')
 ylabel('Time in seconds')
 title('CUBA No synapses')
-legend('show')
+legend('show','Location','northwest')
 
 subplot 222
 loglog(data.CellCount, data.BrianCOBAHH_Nosyn, '-or')
